@@ -52,16 +52,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>论文整理</title>
-    <url>/master/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[<p>曲率和法向等微分信息估算是点云数据处理的基础。</p>
-<p>三维视觉表面缺陷检测技术和逆向工程技术具有许多共性。</p>
-<p>基于点云数据缺陷检测流程图</p>
-<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-07-03-16-27-45-`PD]GZ7_M0KX8DS}ZELKIGA.png"></p>
-<p>数据配准算法：ICP</p>
-]]></content>
-  </entry>
-  <entry>
     <title>yolov5代码分析</title>
     <url>/master/2023/05/18/yolov5%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/</url>
     <content><![CDATA[<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-05-19-10-03-58-image.png" alt="" data-align="inline">
@@ -80,6 +70,16 @@
       <tags>
         <tag>yolo基础</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>论文整理</title>
+    <url>/master/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[<p>曲率和法向等微分信息估算是点云数据处理的基础。</p>
+<p>三维视觉表面缺陷检测技术和逆向工程技术具有许多共性。</p>
+<p>基于点云数据缺陷检测流程图</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-07-03-16-27-45-`PD]GZ7_M0KX8DS}ZELKIGA.png"></p>
+<p>数据配准算法：ICP</p>
+]]></content>
   </entry>
   <entry>
     <title>去看论文吧</title>
@@ -343,6 +343,11 @@
   </entry>
   <entry>
     <title>论文整理</title>
+    <url>/master/2023/07/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-10/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>论文整理</title>
     <url>/master/2023/03/23/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-3/</url>
     <content><![CDATA[<h1 id="论文引用"><a href="#论文引用" class="headerlink" title="论文引用"></a>论文引用</h1><p>[1]周博. 基于深度学习的铝型材表面缺陷检测技术研究[D].武汉纺织大学,2022.DOI:10.27698&#x2F;d.cnki.gwhxj.2022.000140.</p>
 <h1 id="论文结构"><a href="#论文结构" class="headerlink" title="论文结构"></a>论文结构</h1><ol>
@@ -356,11 +361,6 @@
 </li>
 </ol>
 ]]></content>
-  </entry>
-  <entry>
-    <title>论文整理</title>
-    <url>/master/2023/07/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-10/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>论文整理</title>
@@ -388,6 +388,20 @@
       <tags>
         <tag>深度学习基础</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>基于深度学习的图像多标签分类算法研究_张荣辉</title>
+    <url>/master/2023/05/01/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-6/</url>
+    <content><![CDATA[<p>本文以深度学习理论为基础，从图像深度特征提取和多标签分类器两个角度出发，研究深度学习在图像多标签分类方面的具体应用。</p>
+<ol>
+<li><p>利用卷积神经网络模型这种特征学习方法提取深层图像特征</p>
+</li>
+<li><p>对比分析多种多标签分类算法，最终选择了RAKEL算法训练分类器。</p>
+</li>
+<li><p>研究CNN和RAKEL的结合原理</p>
+</li>
+</ol>
+]]></content>
   </entry>
   <entry>
     <title>基于深度学习的图像多标签分类算法研究_高士慧</title>
@@ -445,18 +459,23 @@
       </tags>
   </entry>
   <entry>
-    <title>基于深度学习的图像多标签分类算法研究_张荣辉</title>
-    <url>/master/2023/05/01/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-6/</url>
-    <content><![CDATA[<p>本文以深度学习理论为基础，从图像深度特征提取和多标签分类器两个角度出发，研究深度学习在图像多标签分类方面的具体应用。</p>
-<ol>
-<li><p>利用卷积神经网络模型这种特征学习方法提取深层图像特征</p>
-</li>
-<li><p>对比分析多种多标签分类算法，最终选择了RAKEL算法训练分类器。</p>
-</li>
-<li><p>研究CNN和RAKEL的结合原理</p>
-</li>
-</ol>
+    <title>论文整理</title>
+    <url>/master/2023/05/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-7/</url>
+    <content><![CDATA[<p>yolov4</p>
+<p>现代检测器通常由两部分组成，在ImageNet上进行预训练的主干和用于预测对象类别和边界框的头部。</p>
+<p>近年来发展起来的目标检测器通常在主干和头之间插入一些层，这些层通常用于收集不同阶段的特征图。我们可以称之为物体探测器的颈部。</p>
+<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-05-05-10-45-44-image.png" alt="" data-align="center">
+
+<ul>
+<li>Backbone：CSPDarknet53</li>
+<li>Neck：SPP,PAN</li>
+<li>Head：YOLOv3</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20200512144007178.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDc5MTk2NA==,size_16,color_FFFFFF,t_70#pic_center"></p>
 ]]></content>
+      <categories>
+        <category>论文整理</category>
+      </categories>
   </entry>
   <entry>
     <title>Periodic Surface Defect Detection in Steel Plates Based on Deep Learning</title>
@@ -476,25 +495,6 @@
 <p>图7b显示了图7a中时刻t的LSTM[16]算法的具体流程。图7b中，Ct−1为前一时刻的信息，包括前一时刻输入网络的所有信息。结合当前时刻输入的信息Xt，先过滤前一时刻的信息，再过滤当前时刻输入的信息。通过过滤，没有缺陷时的信息，如图7a中的X2、Xt，被遗忘，而有缺陷时的信息，如图7a中的X0、Xt−1，被记住。因此，LSTM可以更好地记住缺陷特征，并防止长时间忘记缺陷特征。</p>
 <p>将缺陷图像与背景图像周期性排列拼接成一幅长矩形图像，得到周期性缺陷样本。将该样本输入到设计好的CNN中，提取卷积层的输出作为样本的特征向量。然后，将特征向量切成LSTM的输入向量。</p>
 <p>本研究使用Tensorflow框架实现LSTM。</p>
-]]></content>
-      <categories>
-        <category>论文整理</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>论文整理</title>
-    <url>/master/2023/05/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-7/</url>
-    <content><![CDATA[<p>yolov4</p>
-<p>现代检测器通常由两部分组成，在ImageNet上进行预训练的主干和用于预测对象类别和边界框的头部。</p>
-<p>近年来发展起来的目标检测器通常在主干和头之间插入一些层，这些层通常用于收集不同阶段的特征图。我们可以称之为物体探测器的颈部。</p>
-<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-05-05-10-45-44-image.png" alt="" data-align="center">
-
-<ul>
-<li>Backbone：CSPDarknet53</li>
-<li>Neck：SPP,PAN</li>
-<li>Head：YOLOv3</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/20200512144007178.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDc5MTk2NA==,size_16,color_FFFFFF,t_70#pic_center"></p>
 ]]></content>
       <categories>
         <category>论文整理</category>
