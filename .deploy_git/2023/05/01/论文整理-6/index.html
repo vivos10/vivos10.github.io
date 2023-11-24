@@ -5,25 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 5.4.2">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/master/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/master/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/master/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/master/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/master/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/master/lib/font-awesome/css/all.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"vivos10.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"vivos10.github.io","root":"/master/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="本文以深度学习理论为基础，从图像深度特征提取和多标签分类器两个角度出发，研究深度学习在图像多标签分类方面的具体应用。  利用卷积神经网络模型这种特征学习方法提取深层图像特征  对比分析多种多标签分类算法，最终选择了RAKEL算法训练分类器。  研究CNN和RAKEL的结合原理">
 <meta property="og:type" content="article">
 <meta property="og:title" content="基于深度学习的图像多标签分类算法研究_张荣辉">
-<meta property="og:url" content="https://vivos10.github.io/2023/05/01/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-6/index.html">
+<meta property="og:url" content="https://vivos10.github.io/master/2023/05/01/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-6/index.html">
 <meta property="og:site_name" content="布鲁克林有棵树">
 <meta property="og:description" content="本文以深度学习理论为基础，从图像深度特征提取和多标签分类器两个角度出发，研究深度学习在图像多标签分类方面的具体应用。  利用卷积神经网络模型这种特征学习方法提取深层图像特征  对比分析多种多标签分类算法，最终选择了RAKEL算法训练分类器。  研究CNN和RAKEL的结合原理">
 <meta property="og:locale" content="zh_CN">
@@ -33,7 +33,7 @@
 <meta property="article:tag" content="Blog Modeling">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://vivos10.github.io/2023/05/01/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-6/">
+<link rel="canonical" href="https://vivos10.github.io/master/2023/05/01/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-6/">
 
 
 <script id="page-configurations">
@@ -80,7 +80,7 @@
   
 <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 
-<link rel="alternate" href="/atom.xml" title="布鲁克林有棵树" type="application/atom+xml">
+<link rel="alternate" href="/master/atom.xml" title="布鲁克林有棵树" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -105,7 +105,7 @@
 
   <div class="site-meta">
 
-    <a href="/" class="brand" rel="start">
+    <a href="/master/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
       <h1 class="site-title">布鲁克林有棵树</h1>
       <span class="logo-line-after"><i></i></span>
@@ -127,22 +127,22 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+    <a href="/master/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+    <a href="/master/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+    <a href="/master/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/master/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -200,10 +200,10 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://vivos10.github.io/2023/05/01/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-6/">
+    <link itemprop="mainEntityOfPage" href="https://vivos10.github.io/master/2023/05/01/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-6/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/master/images/avatar.gif">
       <meta itemprop="name" content="John Doe">
       <meta itemprop="description" content="<font color="#FFFFFF">Done is better than perfect.</font>">
     </span>
@@ -267,7 +267,7 @@
   <div id="qr" style="display: none;">
       
       <div style="display: inline-block;">
-        <img src="/images/wechatpay.png" alt="John Doe 微信支付">
+        <img src="/master/images/wechatpay.png" alt="John Doe 微信支付">
         <p>微信支付</p>
       </div>
 
@@ -283,11 +283,11 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/04/26/Bilibili-yolo%E5%9F%BA%E7%A1%80/" rel="prev" title="Bilibili&yolo基础">
+    <a href="/master/2023/04/26/Bilibili-yolo%E5%9F%BA%E7%A1%80/" rel="prev" title="Bilibili&yolo基础">
       <i class="fa fa-chevron-left"></i> Bilibili&yolo基础
     </a></div>
       <div class="post-nav-item">
-    <a href="/2023/05/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-7/" rel="next" title="论文整理">
+    <a href="/master/2023/05/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-7/" rel="next" title="论文整理">
       论文整理 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
@@ -359,20 +359,20 @@
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/archives/">
+          <a href="/master/archives/">
         
           <span class="site-state-item-count">24</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-            <a href="/categories/">
+            <a href="/master/categories/">
           
         <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-            <a href="/tags/">
+            <a href="/master/tags/">
           
         <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">标签</span></a>
@@ -430,33 +430,33 @@
   </div>
 
   
-  <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
+  <script size="300" alpha="0.6" zIndex="-1" src="/master/lib/canvas-ribbon/canvas-ribbon.js"></script>
+  <script src="/master/lib/anime.min.js"></script>
+  <script src="/master/lib/velocity/velocity.min.js"></script>
+  <script src="/master/lib/velocity/velocity.ui.min.js"></script>
 
-<script src="/js/utils.js"></script>
+<script src="/master/js/utils.js"></script>
 
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
+<script src="/master/js/motion.js"></script>
 
 
-<script src="/js/next-boot.js"></script>
+<script src="/master/js/schemes/muse.js"></script>
 
 
-  <script defer src="/lib/three/three.min.js"></script>
-    <script defer src="/lib/three/canvas_sphere.min.js"></script>
+<script src="/master/js/next-boot.js"></script>
 
 
-  
-
-
+  <script defer src="/master/lib/three/three.min.js"></script>
+    <script defer src="/master/lib/three/canvas_sphere.min.js"></script>
 
 
   
-<script src="/js/local-search.js"></script>
+
+
+
+
+  
+<script src="/master/js/local-search.js"></script>
 
 
 
