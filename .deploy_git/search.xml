@@ -2,12 +2,12 @@
 <search>
   <entry>
     <title>Bilibili&amp;yolo基础</title>
-    <url>/master/2023/04/26/Bilibili-yolo%E5%9F%BA%E7%A1%80/</url>
+    <url>/2023/04/26/Bilibili-yolo%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>PLC</title>
-    <url>/master/2023/04/14/PLC/</url>
+    <url>/2023/04/14/PLC/</url>
     <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
 <li><p><a href="https://www.bilibili.com/video/BV1KP411G7eP/?spm_id_from=333.337.search-card.all.click&vd_source=92031302c770784aa5d8337c1dffa13a">电梯控制PLC编程_哔哩哔哩_bilibili</a></p>
 </li>
@@ -35,7 +35,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/master/2023/01/25/hello-world/</url>
+    <url>/2023/01/25/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -53,7 +53,7 @@
   </entry>
   <entry>
     <title>yolov5代码分析</title>
-    <url>/master/2023/05/18/yolov5%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/</url>
+    <url>/2023/05/18/yolov5%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/</url>
     <content><![CDATA[<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-05-19-10-03-58-image.png" alt="" data-align="inline">
 
 <p><code>class Detect(nn.Module):</code></p>
@@ -73,7 +73,7 @@
   </entry>
   <entry>
     <title>论文整理</title>
-    <url>/master/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/</url>
+    <url>/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/</url>
     <content><![CDATA[<p>曲率和法向等微分信息估算是点云数据处理的基础。</p>
 <p>三维视觉表面缺陷检测技术和逆向工程技术具有许多共性。</p>
 <p>基于点云数据缺陷检测流程图</p>
@@ -82,8 +82,27 @@
 ]]></content>
   </entry>
   <entry>
+    <title>基于图像的三维重建——基于图像的立体视觉研究</title>
+    <url>/2023/06/10/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E7%AB%8B%E4%BD%93%E8%A7%86%E8%A7%89%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[<p>随着科技的发展，人们生活水平的进步，二维图像已经满足不了人类的需求了，三维立体图像应运而生。</p>
+<p>获取三维立体信息，可以根据不同的特性大致分为以下三类</p>
+<ol>
+<li><p>利用三维建模应用软件（GBM），但得先知道场景中事物的具体信息，比如物体的大小，形状，位置等。像3Dmax，AutoCAD等，都是利用一些基本的几何元素（长方体，球等），再经过一系列几何操作来构造出复杂的实物模型。操作复杂，且由于使用的是基本的几何体元素，所以精度和真实感都不高。</p>
+</li>
+<li><p>通过复杂的三维扫描系统来获取三维立体信息。这种方法是用激光或红外来测量物体与仪器间的距离，从而生成一个深度曲面。精度较高，但设备昂贵。</p>
+</li>
+<li><p>基于图像的三维重建方法（IBM），这种方法是先采集生活中的二维图像，再根据图像中的信息和已知的参数来重建物体模型。自动化程度高，计算机可以独立完成建模过程中的大部分数据处理工作。</p>
+</li>
+</ol>
+<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-06-10-21-18-53-1686403126776.png" alt="" data-align="center">
+]]></content>
+      <tags>
+        <tag>三维重建</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>去看论文吧</title>
-    <url>/master/2023/02/28/%E5%8E%BB%E7%9C%8B%E8%AE%BA%E6%96%87%E5%90%A7/</url>
+    <url>/2023/02/28/%E5%8E%BB%E7%9C%8B%E8%AE%BA%E6%96%87%E5%90%A7/</url>
     <content><![CDATA[<h1 id="一天一篇论文打卡"><a href="#一天一篇论文打卡" class="headerlink" title="一天一篇论文打卡"></a>一天一篇论文打卡</h1><table>
 <thead>
 <tr>
@@ -197,27 +216,8 @@
       </tags>
   </entry>
   <entry>
-    <title>基于图像的三维重建——基于图像的立体视觉研究</title>
-    <url>/master/2023/06/10/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E7%AB%8B%E4%BD%93%E8%A7%86%E8%A7%89%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[<p>随着科技的发展，人们生活水平的进步，二维图像已经满足不了人类的需求了，三维立体图像应运而生。</p>
-<p>获取三维立体信息，可以根据不同的特性大致分为以下三类</p>
-<ol>
-<li><p>利用三维建模应用软件（GBM），但得先知道场景中事物的具体信息，比如物体的大小，形状，位置等。像3Dmax，AutoCAD等，都是利用一些基本的几何元素（长方体，球等），再经过一系列几何操作来构造出复杂的实物模型。操作复杂，且由于使用的是基本的几何体元素，所以精度和真实感都不高。</p>
-</li>
-<li><p>通过复杂的三维扫描系统来获取三维立体信息。这种方法是用激光或红外来测量物体与仪器间的距离，从而生成一个深度曲面。精度较高，但设备昂贵。</p>
-</li>
-<li><p>基于图像的三维重建方法（IBM），这种方法是先采集生活中的二维图像，再根据图像中的信息和已知的参数来重建物体模型。自动化程度高，计算机可以独立完成建模过程中的大部分数据处理工作。</p>
-</li>
-</ol>
-<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-06-10-21-18-53-1686403126776.png" alt="" data-align="center">
-]]></content>
-      <tags>
-        <tag>三维重建</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>手写数字识别</title>
-    <url>/master/2023/03/29/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB/</url>
+    <url>/2023/03/29/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB/</url>
     <content><![CDATA[<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://blog.csdn.net/ShakalakaPHD/article/details/110694933">基于卷积神经网络的手写数字识别（附数据集+完整代码+操作说明）_卷积神经网络进行手写数字识别_Hurri_cane的博客-CSDN博客</a></p>
 <h1 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h1>]]></content>
       <categories>
@@ -225,16 +225,8 @@
       </categories>
   </entry>
   <entry>
-    <title>基于结构光扫描的三维点云数据重构算法研究_徐吉轩</title>
-    <url>/master/2023/06/10/%E5%9F%BA%E4%BA%8E%E7%BB%93%E6%9E%84%E5%85%89%E6%89%AB%E6%8F%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E7%82%B9%E4%BA%91%E6%95%B0%E6%8D%AE%E9%87%8D%E6%9E%84%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>三维重建</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搭建yolov5框架</title>
-    <url>/master/2023/03/16/%E6%90%AD%E5%BB%BAyolov5%E6%A1%86%E6%9E%B6/</url>
+    <url>/2023/03/16/%E6%90%AD%E5%BB%BAyolov5%E6%A1%86%E6%9E%B6/</url>
     <content><![CDATA[<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://www.bilibili.com/video/BV1GE411T7rQ/?p=3&spm_id_from=pageDriver&vd_source=92031302c770784aa5d8337c1dffa13a">常用conda命令_哔哩哔哩_bilibili</a></p>
 <p><a href="https://blog.csdn.net/ECHOSON/article/details/121939535">(135条消息) 手把手教你使用YOLOV5训练自己的目标检测模型-口罩检测-视频教程_yolov5模型训练_肆十二的博客-CSDN博客</a></p>
 <h1 id="基本步骤"><a href="#基本步骤" class="headerlink" title="基本步骤"></a>基本步骤</h1><p>1.在gitee下载yolov5源代码，创建一个专门的文件夹</p>
@@ -252,8 +244,16 @@
       </tags>
   </entry>
   <entry>
+    <title>基于结构光扫描的三维点云数据重构算法研究_徐吉轩</title>
+    <url>/2023/06/10/%E5%9F%BA%E4%BA%8E%E7%BB%93%E6%9E%84%E5%85%89%E6%89%AB%E6%8F%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E7%82%B9%E4%BA%91%E6%95%B0%E6%8D%AE%E9%87%8D%E6%9E%84%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>三维重建</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>搭建深度学习环境</title>
-    <url>/master/2023/03/15/%E6%90%AD%E5%BB%BA%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83/</url>
+    <url>/2023/03/15/%E6%90%AD%E5%BB%BA%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83/</url>
     <content><![CDATA[<h1 id="参考文件："><a href="#参考文件：" class="headerlink" title="参考文件："></a>参考文件：</h1><p><a href="https://www.bilibili.com/video/BV1cD4y1H7Tk/?spm_id_from=333.788.recommend_more_video.0&vd_source=92031302c770784aa5d8337c1dffa13a">Python深度学习：安装Anaconda、PyTorch（GPU版）与PyCharm_哔哩哔哩_bilibili</a></p>
 <h1 id="主要流程"><a href="#主要流程" class="headerlink" title="主要流程"></a>主要流程</h1><p>下载<u>anaconda</u>、<u>pytorch</u>、<u>pycharm</u></p>
 <p>1.anaconda安装最新版本即可</p>
@@ -285,14 +285,8 @@
       </tags>
   </entry>
   <entry>
-    <title>方向研究</title>
-    <url>/master/2023/05/19/%E6%96%B9%E5%90%91%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[<p>开发了一种将双目结构光相机采集的高密度点云数据转化为深度图像的新方法，构建了训练深度学习模型的焊缝表面缺陷深度图像数据集和用于对比的彩色图像数据集</p>
-]]></content>
-  </entry>
-  <entry>
     <title>时间序列</title>
-    <url>/master/2023/05/22/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/</url>
+    <url>/2023/05/22/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/</url>
     <content><![CDATA[<p>绝大部分行业场景，尤其是互联网、量化行业，每天都会产生大量的数据。金融领域股票价格随时间的走势；电商行业每日的销售额；旅游行业随着节假日周期变化的机票酒店价格等；</p>
 <p>我们称这种不同时间收到的，描述一个或多种特征随着时间发生变化的数据，为时间序列数据（Time Series Data）。</p>
 <p>而时间序列预测做的就是<strong>通过多种维度的数据本身内在与时间的关联特性</strong>，<strong>利用历史的数据预测未来</strong>这么一件事情。</p>
@@ -300,22 +294,14 @@
 ]]></content>
   </entry>
   <entry>
-    <title>添加音乐</title>
-    <url>/master/2023/03/04/%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/</url>
-    <content><![CDATA[<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://blog.csdn.net/qq_35324057/article/details/104124723?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&utm_relevant_index=6">(131条消息) Hexo next主题中添加播放器Aplayer_Stride Max Zz的博客-CSDN博客</a></p>
-<p><a href="https://www.jianshu.com/p/3fb29cc7a00b">踩坑记–hexo中加入音乐 - 简书 (jianshu.com)</a></p>
-<h2 id="简单总结"><a href="#简单总结" class="headerlink" title="简单总结"></a>简单总结</h2><p>大体操作按照链接一，再按照链接二生成本地音乐外链，替换链接一的音乐链，就可以播放自己喜欢的音乐了。</p>
+    <title>方向研究</title>
+    <url>/2023/05/19/%E6%96%B9%E5%90%91%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[<p>开发了一种将双目结构光相机采集的高密度点云数据转化为深度图像的新方法，构建了训练深度学习模型的焊缝表面缺陷深度图像数据集和用于对比的彩色图像数据集</p>
 ]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>aplayer leancloud</tag>
-      </tags>
   </entry>
   <entry>
     <title>论文整理</title>
-    <url>/master/2023/03/12/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-2/</url>
+    <url>/2023/03/12/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-2/</url>
     <content><![CDATA[<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>然而表面缺陷检测的相关技术并未随着图像处理技术的发展而快速发展，其原因是在相关技术转化为生产力的过程中未能更多地结合实际生产的需要做出改进，也不能克服生产环境的变化给这些技术实现带来的障碍。</p>
 <p>带钢表面缺陷检测系统的发展不仅是结构构架、缺陷检测和分类能力的提高，更重要<br>是能使用合适的方法解决应用过程中出现的问题，问题的解决也能直接推动着系统的优化。</p>
 <h1 id="任务"><a href="#任务" class="headerlink" title="任务"></a>任务</h1><ul>
@@ -342,13 +328,27 @@
       </tags>
   </entry>
   <entry>
+    <title>添加音乐</title>
+    <url>/2023/03/04/%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://blog.csdn.net/qq_35324057/article/details/104124723?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&utm_relevant_index=6">(131条消息) Hexo next主题中添加播放器Aplayer_Stride Max Zz的博客-CSDN博客</a></p>
+<p><a href="https://www.jianshu.com/p/3fb29cc7a00b">踩坑记–hexo中加入音乐 - 简书 (jianshu.com)</a></p>
+<h2 id="简单总结"><a href="#简单总结" class="headerlink" title="简单总结"></a>简单总结</h2><p>大体操作按照链接一，再按照链接二生成本地音乐外链，替换链接一的音乐链，就可以播放自己喜欢的音乐了。</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>aplayer leancloud</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>论文整理</title>
-    <url>/master/2023/07/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-10/</url>
+    <url>/2023/07/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-10/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>论文整理</title>
-    <url>/master/2023/03/23/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-3/</url>
+    <url>/2023/03/23/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-3/</url>
     <content><![CDATA[<h1 id="论文引用"><a href="#论文引用" class="headerlink" title="论文引用"></a>论文引用</h1><p>[1]周博. 基于深度学习的铝型材表面缺陷检测技术研究[D].武汉纺织大学,2022.DOI:10.27698&#x2F;d.cnki.gwhxj.2022.000140.</p>
 <h1 id="论文结构"><a href="#论文结构" class="headerlink" title="论文结构"></a>论文结构</h1><ol>
 <li><p>阐述了铝型材表面缺陷检测任务背景</p>
@@ -364,7 +364,7 @@
   </entry>
   <entry>
     <title>论文整理</title>
-    <url>/master/2023/04/06/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-4/</url>
+    <url>/2023/04/06/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-4/</url>
     <content><![CDATA[<h1 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h1><h2 id="NatureDeepReview-doi-10-1038-x2F-nature14539"><a href="#NatureDeepReview-doi-10-1038-x2F-nature14539" class="headerlink" title="NatureDeepReview                                  doi:10.1038&#x2F;nature14539"></a>NatureDeepReview                                  doi:10.1038&#x2F;nature14539</h2><p>深度学习通过使用反向传播算法来发现大型数据集中的复杂结构，以指示机器应该如何改变其内部参数。深度卷积网络在图像、视频、语音和音频处理方面取得了突破，而循环网络则在文本和语音等顺序数据方面大出风头。</p>
 <p>机器学习最常见的形式，无论深度与否，都是监督学习。</p>
 <p>我们计算一个目标函数来测量输出分数和期望分数模式之间的误差。然后，机器修改其内部可调参数，以减少这种误差。这些可调参数，通常称为权重。</p>
@@ -390,22 +390,8 @@
       </tags>
   </entry>
   <entry>
-    <title>基于深度学习的图像多标签分类算法研究_张荣辉</title>
-    <url>/master/2023/05/01/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-6/</url>
-    <content><![CDATA[<p>本文以深度学习理论为基础，从图像深度特征提取和多标签分类器两个角度出发，研究深度学习在图像多标签分类方面的具体应用。</p>
-<ol>
-<li><p>利用卷积神经网络模型这种特征学习方法提取深层图像特征</p>
-</li>
-<li><p>对比分析多种多标签分类算法，最终选择了RAKEL算法训练分类器。</p>
-</li>
-<li><p>研究CNN和RAKEL的结合原理</p>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
     <title>基于深度学习的图像多标签分类算法研究_高士慧</title>
-    <url>/master/2023/04/23/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-5/</url>
+    <url>/2023/04/23/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-5/</url>
     <content><![CDATA[<h1 id="目的："><a href="#目的：" class="headerlink" title="目的："></a>目的：</h1><p> 对这些类别、内容都不相同的图片进行合理有效的管理</p>
 <h1 id="研究背景和意义："><a href="#研究背景和意义：" class="headerlink" title="研究背景和意义："></a>研究背景和意义：</h1><p>对于普通用户来说，平均每个用户的智能手机中大概会存储一千多张照片，并且随着手机与相机拍照功能的增强和各种图片后期处理软件的流行，智能设备中的图片数量也在逐渐增加。如何高效管理这些海量的图片，并且便于用户的查询使用成为一个急需解决的课题。</p>
 <p>图像多标签分类，即为每张图像的不同目标分别赋予类别标签，然后以这些标签为依据对图像进行分类，将图片归属到不同的类别中。这样通过类别标签也可以从大量的图像中检索出需要查询的图像。</p>
@@ -459,27 +445,8 @@
       </tags>
   </entry>
   <entry>
-    <title>论文整理</title>
-    <url>/master/2023/05/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-7/</url>
-    <content><![CDATA[<p>yolov4</p>
-<p>现代检测器通常由两部分组成，在ImageNet上进行预训练的主干和用于预测对象类别和边界框的头部。</p>
-<p>近年来发展起来的目标检测器通常在主干和头之间插入一些层，这些层通常用于收集不同阶段的特征图。我们可以称之为物体探测器的颈部。</p>
-<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-05-05-10-45-44-image.png" alt="" data-align="center">
-
-<ul>
-<li>Backbone：CSPDarknet53</li>
-<li>Neck：SPP,PAN</li>
-<li>Head：YOLOv3</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/20200512144007178.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDc5MTk2NA==,size_16,color_FFFFFF,t_70#pic_center"></p>
-]]></content>
-      <categories>
-        <category>论文整理</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Periodic Surface Defect Detection in Steel Plates Based on Deep Learning</title>
-    <url>/master/2023/05/14/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-8/</url>
+    <url>/2023/05/14/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-8/</url>
     <content><![CDATA[<p>辊印的缺陷对比度较低，很难检测。针对滚动痕迹等周期性缺陷具有较强的时间序列特征，提出了一种基于卷积神经网络(CNN)和长短期记忆(LSTM)的周期性缺陷检测方法。首先通过CNN网络提取缺陷图像的特征，然后将提取的特征向量输入到LSTM网络中进行缺陷识别。</p>
 <p>周期性缺陷的形态特征并不是固定的，因此传统的CNN检测率不高。</p>
 <p>滚印是一组具有周期性的不均匀缺陷。它们通常是由于轧辊疲劳、硬度不足或轧辊在轧制过程中表面有异物引起的。</p>
@@ -501,16 +468,41 @@
       </categories>
   </entry>
   <entry>
-    <title>基于线结构光的物体表面缺陷检测方法与实验研究_杨续昌</title>
-    <url>/master/2023/06/17/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-9/</url>
-    <content><![CDATA[<img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-06-17-11-20-56-1686972050686.png" title="" alt="" data-align="center">
-
-<p>提取光条纹中心线的方法：光强分布拟合法、灰度重心法、方向模板法、Ｈｅｓｓｉａｎ矩阵法。</p>
+    <title>基于深度学习的图像多标签分类算法研究_张荣辉</title>
+    <url>/2023/05/01/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-6/</url>
+    <content><![CDATA[<p>本文以深度学习理论为基础，从图像深度特征提取和多标签分类器两个角度出发，研究深度学习在图像多标签分类方面的具体应用。</p>
+<ol>
+<li><p>利用卷积神经网络模型这种特征学习方法提取深层图像特征</p>
+</li>
+<li><p>对比分析多种多标签分类算法，最终选择了RAKEL算法训练分类器。</p>
+</li>
+<li><p>研究CNN和RAKEL的结合原理</p>
+</li>
+</ol>
 ]]></content>
   </entry>
   <entry>
     <title>论文整理</title>
-    <url>/master/2023/03/04/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/</url>
+    <url>/2023/05/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-7/</url>
+    <content><![CDATA[<p>yolov4</p>
+<p>现代检测器通常由两部分组成，在ImageNet上进行预训练的主干和用于预测对象类别和边界框的头部。</p>
+<p>近年来发展起来的目标检测器通常在主干和头之间插入一些层，这些层通常用于收集不同阶段的特征图。我们可以称之为物体探测器的颈部。</p>
+<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-05-05-10-45-44-image.png" alt="" data-align="center">
+
+<ul>
+<li>Backbone：CSPDarknet53</li>
+<li>Neck：SPP,PAN</li>
+<li>Head：YOLOv3</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20200512144007178.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDc5MTk2NA==,size_16,color_FFFFFF,t_70#pic_center"></p>
+]]></content>
+      <categories>
+        <category>论文整理</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>论文整理</title>
+    <url>/2023/03/04/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/</url>
     <content><![CDATA[<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>yolo将目标检测定为一个回归问题，可以直接根据检测性能进行端到端优化，因此相较于其他检测系统yolo速度较快。与最先进的检测系统相比，yolo会产生更多的定位误差且在小目标检测上表现较差，但很少在背景上出错，而且对比其他检测方法，yolo的泛化能力更好。</p>
 <h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>人类瞥一眼图像就能知道图像中有什么物体，物体的位置以及他们是如何交互的。而目标检测系统要做的就是不断接近人眼检测的效果，在精度，召回率，速度上统一协调进步。</p>
 <h1 id="与其他检测系统的比较"><a href="#与其他检测系统的比较" class="headerlink" title="与其他检测系统的比较"></a>与其他检测系统的比较</h1><p>R-CNN使用区域建议方法，首先在图像上生成潜在的边界框，然后在这些推荐的框上运行分类器。分类后再进行后处理用于细化边界框，消除重复检测，再根据场景中的其他物体重新预测检测框。这种检测很难优化，因为每个单独的组件都必须单独训练。</p>
@@ -553,5 +545,13 @@
       <tags>
         <tag>yolo基础</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>基于线结构光的物体表面缺陷检测方法与实验研究_杨续昌</title>
+    <url>/2023/06/17/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-9/</url>
+    <content><![CDATA[<img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-06-17-11-20-56-1686972050686.png" title="" alt="" data-align="center">
+
+<p>提取光条纹中心线的方法：光强分布拟合法、灰度重心法、方向模板法、Ｈｅｓｓｉａｎ矩阵法。</p>
+]]></content>
   </entry>
 </search>
