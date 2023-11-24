@@ -6,24 +6,6 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/01/25/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>PLC</title>
     <url>/2023/04/14/PLC/</url>
     <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
@@ -52,6 +34,34 @@
       </categories>
   </entry>
   <entry>
+    <title>论文整理</title>
+    <url>/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[<p>曲率和法向等微分信息估算是点云数据处理的基础。</p>
+<p>三维视觉表面缺陷检测技术和逆向工程技术具有许多共性。</p>
+<p>基于点云数据缺陷检测流程图</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-07-03-16-27-45-`PD]GZ7_M0KX8DS}ZELKIGA.png"></p>
+<p>数据配准算法：ICP</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/01/25/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>yolov5代码分析</title>
     <url>/2023/05/18/yolov5%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/</url>
     <content><![CDATA[<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-05-19-10-03-58-image.png" alt="" data-align="inline">
@@ -70,16 +80,6 @@
       <tags>
         <tag>yolo基础</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>论文整理</title>
-    <url>/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[<p>曲率和法向等微分信息估算是点云数据处理的基础。</p>
-<p>三维视觉表面缺陷检测技术和逆向工程技术具有许多共性。</p>
-<p>基于点云数据缺陷检测流程图</p>
-<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-07-03-16-27-45-`PD]GZ7_M0KX8DS}ZELKIGA.png"></p>
-<p>数据配准算法：ICP</p>
-]]></content>
   </entry>
   <entry>
     <title>去看论文吧</title>
@@ -197,42 +197,6 @@
       </tags>
   </entry>
   <entry>
-    <title>基于结构光扫描的三维点云数据重构算法研究_徐吉轩</title>
-    <url>/2023/06/10/%E5%9F%BA%E4%BA%8E%E7%BB%93%E6%9E%84%E5%85%89%E6%89%AB%E6%8F%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E7%82%B9%E4%BA%91%E6%95%B0%E6%8D%AE%E9%87%8D%E6%9E%84%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>三维重建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手写数字识别</title>
-    <url>/2023/03/29/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB/</url>
-    <content><![CDATA[<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://blog.csdn.net/ShakalakaPHD/article/details/110694933">基于卷积神经网络的手写数字识别（附数据集+完整代码+操作说明）_卷积神经网络进行手写数字识别_Hurri_cane的博客-CSDN博客</a></p>
-<h1 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h1>]]></content>
-      <categories>
-        <category>实验</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>搭建yolov5框架</title>
-    <url>/2023/03/16/%E6%90%AD%E5%BB%BAyolov5%E6%A1%86%E6%9E%B6/</url>
-    <content><![CDATA[<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://www.bilibili.com/video/BV1GE411T7rQ/?p=3&spm_id_from=pageDriver&vd_source=92031302c770784aa5d8337c1dffa13a">常用conda命令_哔哩哔哩_bilibili</a></p>
-<p><a href="https://blog.csdn.net/ECHOSON/article/details/121939535">(135条消息) 手把手教你使用YOLOV5训练自己的目标检测模型-口罩检测-视频教程_yolov5模型训练_肆十二的博客-CSDN博客</a></p>
-<h1 id="基本步骤"><a href="#基本步骤" class="headerlink" title="基本步骤"></a>基本步骤</h1><p>1.在gitee下载yolov5源代码，创建一个专门的文件夹</p>
-<p>2.在该文件夹的地址下进行cmd </p>
-<p>3.用conda常用命令创建一个专门为yolov5的虚拟环境，然后在这个环境中安装各种依赖包</p>
-<p>4.在pycharm中打开yolov5文件夹，然后选择刚才配置好的虚拟环境</p>
-<p>5.运行detect.py 并观察结果</p>
-<h1 id="后续附加"><a href="#后续附加" class="headerlink" title="后续附加"></a>后续附加</h1><p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-03-22-17-55-59-6e1045938c678b103175169c8cc149e.png"></p>
-]]></content>
-      <categories>
-        <category>搭建环境</category>
-      </categories>
-      <tags>
-        <tag>yolo基础</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>基于图像的三维重建——基于图像的立体视觉研究</title>
     <url>/2023/06/10/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E7%AB%8B%E4%BD%93%E8%A7%86%E8%A7%89%E7%A0%94%E7%A9%B6/</url>
     <content><![CDATA[<p>随着科技的发展，人们生活水平的进步，二维图像已经满足不了人类的需求了，三维立体图像应运而生。</p>
@@ -247,6 +211,23 @@
 </ol>
 <img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-06-10-21-18-53-1686403126776.png" alt="" data-align="center">
 ]]></content>
+      <tags>
+        <tag>三维重建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手写数字识别</title>
+    <url>/2023/03/29/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB/</url>
+    <content><![CDATA[<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://blog.csdn.net/ShakalakaPHD/article/details/110694933">基于卷积神经网络的手写数字识别（附数据集+完整代码+操作说明）_卷积神经网络进行手写数字识别_Hurri_cane的博客-CSDN博客</a></p>
+<h1 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h1>]]></content>
+      <categories>
+        <category>实验</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>基于结构光扫描的三维点云数据重构算法研究_徐吉轩</title>
+    <url>/2023/06/10/%E5%9F%BA%E4%BA%8E%E7%BB%93%E6%9E%84%E5%85%89%E6%89%AB%E6%8F%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E7%82%B9%E4%BA%91%E6%95%B0%E6%8D%AE%E9%87%8D%E6%9E%84%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[]]></content>
       <tags>
         <tag>三维重建</tag>
       </tags>
@@ -285,6 +266,31 @@
       </tags>
   </entry>
   <entry>
+    <title>方向研究</title>
+    <url>/2023/05/19/%E6%96%B9%E5%90%91%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[<p>开发了一种将双目结构光相机采集的高密度点云数据转化为深度图像的新方法，构建了训练深度学习模型的焊缝表面缺陷深度图像数据集和用于对比的彩色图像数据集</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>搭建yolov5框架</title>
+    <url>/2023/03/16/%E6%90%AD%E5%BB%BAyolov5%E6%A1%86%E6%9E%B6/</url>
+    <content><![CDATA[<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://www.bilibili.com/video/BV1GE411T7rQ/?p=3&spm_id_from=pageDriver&vd_source=92031302c770784aa5d8337c1dffa13a">常用conda命令_哔哩哔哩_bilibili</a></p>
+<p><a href="https://blog.csdn.net/ECHOSON/article/details/121939535">(135条消息) 手把手教你使用YOLOV5训练自己的目标检测模型-口罩检测-视频教程_yolov5模型训练_肆十二的博客-CSDN博客</a></p>
+<h1 id="基本步骤"><a href="#基本步骤" class="headerlink" title="基本步骤"></a>基本步骤</h1><p>1.在gitee下载yolov5源代码，创建一个专门的文件夹</p>
+<p>2.在该文件夹的地址下进行cmd </p>
+<p>3.用conda常用命令创建一个专门为yolov5的虚拟环境，然后在这个环境中安装各种依赖包</p>
+<p>4.在pycharm中打开yolov5文件夹，然后选择刚才配置好的虚拟环境</p>
+<p>5.运行detect.py 并观察结果</p>
+<h1 id="后续附加"><a href="#后续附加" class="headerlink" title="后续附加"></a>后续附加</h1><p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-03-22-17-55-59-6e1045938c678b103175169c8cc149e.png"></p>
+]]></content>
+      <categories>
+        <category>搭建环境</category>
+      </categories>
+      <tags>
+        <tag>yolo基础</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>添加音乐</title>
     <url>/2023/03/04/%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/</url>
     <content><![CDATA[<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://blog.csdn.net/qq_35324057/article/details/104124723?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&utm_relevant_index=6">(131条消息) Hexo next主题中添加播放器Aplayer_Stride Max Zz的博客-CSDN博客</a></p>
@@ -299,10 +305,9 @@
       </tags>
   </entry>
   <entry>
-    <title>方向研究</title>
-    <url>/2023/05/19/%E6%96%B9%E5%90%91%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[<p>开发了一种将双目结构光相机采集的高密度点云数据转化为深度图像的新方法，构建了训练深度学习模型的焊缝表面缺陷深度图像数据集和用于对比的彩色图像数据集</p>
-]]></content>
+    <title>论文整理</title>
+    <url>/2023/07/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-10/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>时间序列</title>
@@ -312,11 +317,6 @@
 <p>而时间序列预测做的就是<strong>通过多种维度的数据本身内在与时间的关联特性</strong>，<strong>利用历史的数据预测未来</strong>这么一件事情。</p>
 <p>Transformer是Google 在 2017 年提出的一种 用于NLP任务的模型，可以用来做时间序列预测。它可以关注到序列的长期依赖信息，且支持并行化计算，但其本身没有序列的概念，需要增加position embedding是网络学习到序列位置信息</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>论文整理</title>
-    <url>/2023/07/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-10/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>论文整理</title>
@@ -361,6 +361,33 @@
 </li>
 </ol>
 ]]></content>
+  </entry>
+  <entry>
+    <title>论文整理</title>
+    <url>/2023/04/06/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-4/</url>
+    <content><![CDATA[<h1 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h1><h2 id="NatureDeepReview-doi-10-1038-x2F-nature14539"><a href="#NatureDeepReview-doi-10-1038-x2F-nature14539" class="headerlink" title="NatureDeepReview                                  doi:10.1038&#x2F;nature14539"></a>NatureDeepReview                                  doi:10.1038&#x2F;nature14539</h2><p>深度学习通过使用反向传播算法来发现大型数据集中的复杂结构，以指示机器应该如何改变其内部参数。深度卷积网络在图像、视频、语音和音频处理方面取得了突破，而循环网络则在文本和语音等顺序数据方面大出风头。</p>
+<p>机器学习最常见的形式，无论深度与否，都是监督学习。</p>
+<p>我们计算一个目标函数来测量输出分数和期望分数模式之间的误差。然后，机器修改其内部可调参数，以减少这种误差。这些可调参数，通常称为权重。</p>
+<p>在实践中，大多数从业者使用一种称为随机梯度下降(SGD)的程序。这包括显示几个例子的输入向量，计算输出和误差，计算这些例子的平均梯度，并相应地调整权重。对训练集中的许多小样本集重复这个过程，直到目标函数的平均值停止下降。它之所以被称为随机，是因为每个小样本集对所有样本的平均梯度给出了一个有噪声的估计。与复杂得多的优化技术相比，这个简单的程序通常能惊人地快速找到一组良好的权重。</p>
+<p><img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-06-20-16-39-5a49a75876192c9a1ea19b821a5521c.png" alt="" width="303">     <img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-06-20-17-24-3a42b78e655362bd8b6b86aeab1d0bb.png" alt="" width="314"></p>
+<p>c，用于计算具有两个隐藏层和一个输出层的神经网络中的前向传递的方程，每个输出层构成一个模块，通过该模块可以反向传播梯度。在每一层，我们首先计算每个单元的总输入z，这是下一层单元输出的加权和。然后对z应用非线性函数f(.)来得到单位的输出。为简单起见，我们省略了偏差项。</p>
+<p>神经网络中使用的非线性函数包括近年来常用的整流线性单元(ReLU) f(z) &#x3D; max(0,z)，以及更传统的sigmoids，如双曲正切，f(z) &#x3D;(exp(z)−exp(−z))&#x2F;(exp(z)+exp(−z))和logistic函数logistic, f(z) &#x3D;1&#x2F;(1 +exp(−z))。</p>
+<p>d，用于计算向后传递的方程。在每个隐藏层，我们计算关于每个单元输出的误差导数，这是关于上面一层中单元的总输入的误差导数的加权和。然后通过乘以f(z)的梯度，将输出的误差导数转换为输入的误差导数。</p>
+<p>在输出层，相对于单位输出的误差导数通过对成本函数求导来计算。如果单位l的成本函数为0.5(yl−tl) 2，则得到yl−tl，其中tl是目标值。一旦∂E&#x2F;∂zk是已知的，从下面一层的单位j开始的连接的权值wjk的误差导数就是yj∂E&#x2F;∂zk。</p>
+<p>使用通用的学习过程自动学习好的特性</p>
+<p>隐藏层可以被视为以非线性方式扭曲输入</p>
+<p>There are four key ideas behind ConvNets that take advantage of the properties of natural signals: local connections, shared weights, pooling and the use of many layers.</p>
+<p>深度神经网络利用了许多自然信号都是组合层次结构的特性，其中高级特征是通过组合低级特征来获得的。</p>
+<p>深度学习理论表明，与不使用分布式表示的经典学习算法相比，深度网络具有两种不同的指数优势。这两个优点都来自组合的强大功能，并依赖于底层数据生成分布具有适当的组件结构。首先，学习分布式表示能够泛化到学习到的特征值的新组合，而不是在训练中看到的那些(例如，n个二进制特征可以有2^n个组合)。其次，在一个深度网络中组成表示层带来了另一个指数优势(深度指数)的潜力。</p>
+<h1 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h1><h2 id="Reducing-the-Dimensionality-of-Data-with-Neural-Networks"><a href="#Reducing-the-Dimensionality-of-Data-with-Neural-Networks" class="headerlink" title="Reducing the Dimensionality of Data with Neural Networks"></a>Reducing the Dimensionality of Data with Neural Networks</h2><h2 id="28-JULY-2006-VOL-313-SCIENCE-www-sciencemag-org"><a href="#28-JULY-2006-VOL-313-SCIENCE-www-sciencemag-org" class="headerlink" title="28 JULY 2006 VOL 313 SCIENCE www.sciencemag.org"></a>28 JULY 2006 VOL 313 SCIENCE <a href="http://www.sciencemag.org/">www.sciencemag.org</a></h2><p>降维有利于高维数据的分类、可视化、通信和存储。一种简单而广泛使用的方法是主成分分析。本文提出了。。。。。</p>
+<p>在具有多个隐藏层(2-4层)的非线性自编码器中，权值的优化非常困难。只有初始权重接近一个好的解，梯度下降才能很好地工作，但找到这样的初始权重需要一种非常不同的算法，需要每次学习一层特征。我们介绍了这个用于二进制数据的预训练过程，并将其推广到实值数据，并表明它适用于各种数据集。</p>
+]]></content>
+      <categories>
+        <category>论文整理</category>
+      </categories>
+      <tags>
+        <tag>深度学习基础</tag>
+      </tags>
   </entry>
   <entry>
     <title>基于深度学习的图像多标签分类算法研究_高士慧</title>
@@ -415,33 +442,6 @@
       </categories>
       <tags>
         <tag>多标签算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>论文整理</title>
-    <url>/2023/04/06/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-4/</url>
-    <content><![CDATA[<h1 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h1><h2 id="NatureDeepReview-doi-10-1038-x2F-nature14539"><a href="#NatureDeepReview-doi-10-1038-x2F-nature14539" class="headerlink" title="NatureDeepReview                                  doi:10.1038&#x2F;nature14539"></a>NatureDeepReview                                  doi:10.1038&#x2F;nature14539</h2><p>深度学习通过使用反向传播算法来发现大型数据集中的复杂结构，以指示机器应该如何改变其内部参数。深度卷积网络在图像、视频、语音和音频处理方面取得了突破，而循环网络则在文本和语音等顺序数据方面大出风头。</p>
-<p>机器学习最常见的形式，无论深度与否，都是监督学习。</p>
-<p>我们计算一个目标函数来测量输出分数和期望分数模式之间的误差。然后，机器修改其内部可调参数，以减少这种误差。这些可调参数，通常称为权重。</p>
-<p>在实践中，大多数从业者使用一种称为随机梯度下降(SGD)的程序。这包括显示几个例子的输入向量，计算输出和误差，计算这些例子的平均梯度，并相应地调整权重。对训练集中的许多小样本集重复这个过程，直到目标函数的平均值停止下降。它之所以被称为随机，是因为每个小样本集对所有样本的平均梯度给出了一个有噪声的估计。与复杂得多的优化技术相比，这个简单的程序通常能惊人地快速找到一组良好的权重。</p>
-<p><img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-06-20-16-39-5a49a75876192c9a1ea19b821a5521c.png" alt="" width="303">     <img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-06-20-17-24-3a42b78e655362bd8b6b86aeab1d0bb.png" alt="" width="314"></p>
-<p>c，用于计算具有两个隐藏层和一个输出层的神经网络中的前向传递的方程，每个输出层构成一个模块，通过该模块可以反向传播梯度。在每一层，我们首先计算每个单元的总输入z，这是下一层单元输出的加权和。然后对z应用非线性函数f(.)来得到单位的输出。为简单起见，我们省略了偏差项。</p>
-<p>神经网络中使用的非线性函数包括近年来常用的整流线性单元(ReLU) f(z) &#x3D; max(0,z)，以及更传统的sigmoids，如双曲正切，f(z) &#x3D;(exp(z)−exp(−z))&#x2F;(exp(z)+exp(−z))和logistic函数logistic, f(z) &#x3D;1&#x2F;(1 +exp(−z))。</p>
-<p>d，用于计算向后传递的方程。在每个隐藏层，我们计算关于每个单元输出的误差导数，这是关于上面一层中单元的总输入的误差导数的加权和。然后通过乘以f(z)的梯度，将输出的误差导数转换为输入的误差导数。</p>
-<p>在输出层，相对于单位输出的误差导数通过对成本函数求导来计算。如果单位l的成本函数为0.5(yl−tl) 2，则得到yl−tl，其中tl是目标值。一旦∂E&#x2F;∂zk是已知的，从下面一层的单位j开始的连接的权值wjk的误差导数就是yj∂E&#x2F;∂zk。</p>
-<p>使用通用的学习过程自动学习好的特性</p>
-<p>隐藏层可以被视为以非线性方式扭曲输入</p>
-<p>There are four key ideas behind ConvNets that take advantage of the properties of natural signals: local connections, shared weights, pooling and the use of many layers.</p>
-<p>深度神经网络利用了许多自然信号都是组合层次结构的特性，其中高级特征是通过组合低级特征来获得的。</p>
-<p>深度学习理论表明，与不使用分布式表示的经典学习算法相比，深度网络具有两种不同的指数优势。这两个优点都来自组合的强大功能，并依赖于底层数据生成分布具有适当的组件结构。首先，学习分布式表示能够泛化到学习到的特征值的新组合，而不是在训练中看到的那些(例如，n个二进制特征可以有2^n个组合)。其次，在一个深度网络中组成表示层带来了另一个指数优势(深度指数)的潜力。</p>
-<h1 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h1><h2 id="Reducing-the-Dimensionality-of-Data-with-Neural-Networks"><a href="#Reducing-the-Dimensionality-of-Data-with-Neural-Networks" class="headerlink" title="Reducing the Dimensionality of Data with Neural Networks"></a>Reducing the Dimensionality of Data with Neural Networks</h2><h2 id="28-JULY-2006-VOL-313-SCIENCE-www-sciencemag-org"><a href="#28-JULY-2006-VOL-313-SCIENCE-www-sciencemag-org" class="headerlink" title="28 JULY 2006 VOL 313 SCIENCE www.sciencemag.org"></a>28 JULY 2006 VOL 313 SCIENCE <a href="http://www.sciencemag.org/">www.sciencemag.org</a></h2><p>降维有利于高维数据的分类、可视化、通信和存储。一种简单而广泛使用的方法是主成分分析。本文提出了。。。。。</p>
-<p>在具有多个隐藏层(2-4层)的非线性自编码器中，权值的优化非常困难。只有初始权重接近一个好的解，梯度下降才能很好地工作，但找到这样的初始权重需要一种非常不同的算法，需要每次学习一层特征。我们介绍了这个用于二进制数据的预训练过程，并将其推广到实值数据，并表明它适用于各种数据集。</p>
-]]></content>
-      <categories>
-        <category>论文整理</category>
-      </categories>
-      <tags>
-        <tag>深度学习基础</tag>
       </tags>
   </entry>
   <entry>
@@ -501,6 +501,14 @@
       </categories>
   </entry>
   <entry>
+    <title>基于线结构光的物体表面缺陷检测方法与实验研究_杨续昌</title>
+    <url>/2023/06/17/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-9/</url>
+    <content><![CDATA[<img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-06-17-11-20-56-1686972050686.png" title="" alt="" data-align="center">
+
+<p>提取光条纹中心线的方法：光强分布拟合法、灰度重心法、方向模板法、Ｈｅｓｓｉａｎ矩阵法。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>论文整理</title>
     <url>/2023/03/04/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/</url>
     <content><![CDATA[<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>yolo将目标检测定为一个回归问题，可以直接根据检测性能进行端到端优化，因此相较于其他检测系统yolo速度较快。与最先进的检测系统相比，yolo会产生更多的定位误差且在小目标检测上表现较差，但很少在背景上出错，而且对比其他检测方法，yolo的泛化能力更好。</p>
@@ -545,13 +553,5 @@
       <tags>
         <tag>yolo基础</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>基于线结构光的物体表面缺陷检测方法与实验研究_杨续昌</title>
-    <url>/2023/06/17/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-9/</url>
-    <content><![CDATA[<img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-06-17-11-20-56-1686972050686.png" title="" alt="" data-align="center">
-
-<p>提取光条纹中心线的方法：光强分布拟合法、灰度重心法、方向模板法、Ｈｅｓｓｉａｎ矩阵法。</p>
-]]></content>
   </entry>
 </search>
