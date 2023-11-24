@@ -115,5 +115,5 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:vivos10/vivos10.github.io.git
-  branch: ph-pages
+  branch: master
 

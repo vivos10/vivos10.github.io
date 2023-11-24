@@ -6,6 +6,24 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2023/01/25/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>PLC</title>
     <url>/2023/04/14/PLC/</url>
     <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
@@ -32,24 +50,6 @@
       <categories>
         <category>PLC</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/01/25/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>yolov5代码分析</title>
@@ -80,25 +80,6 @@
 <p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-07-03-16-27-45-`PD]GZ7_M0KX8DS}ZELKIGA.png"></p>
 <p>数据配准算法：ICP</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>基于图像的三维重建——基于图像的立体视觉研究</title>
-    <url>/2023/06/10/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E7%AB%8B%E4%BD%93%E8%A7%86%E8%A7%89%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[<p>随着科技的发展，人们生活水平的进步，二维图像已经满足不了人类的需求了，三维立体图像应运而生。</p>
-<p>获取三维立体信息，可以根据不同的特性大致分为以下三类</p>
-<ol>
-<li><p>利用三维建模应用软件（GBM），但得先知道场景中事物的具体信息，比如物体的大小，形状，位置等。像3Dmax，AutoCAD等，都是利用一些基本的几何元素（长方体，球等），再经过一系列几何操作来构造出复杂的实物模型。操作复杂，且由于使用的是基本的几何体元素，所以精度和真实感都不高。</p>
-</li>
-<li><p>通过复杂的三维扫描系统来获取三维立体信息。这种方法是用激光或红外来测量物体与仪器间的距离，从而生成一个深度曲面。精度较高，但设备昂贵。</p>
-</li>
-<li><p>基于图像的三维重建方法（IBM），这种方法是先采集生活中的二维图像，再根据图像中的信息和已知的参数来重建物体模型。自动化程度高，计算机可以独立完成建模过程中的大部分数据处理工作。</p>
-</li>
-</ol>
-<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-06-10-21-18-53-1686403126776.png" alt="" data-align="center">
-]]></content>
-      <tags>
-        <tag>三维重建</tag>
-      </tags>
   </entry>
   <entry>
     <title>去看论文吧</title>
@@ -216,6 +197,14 @@
       </tags>
   </entry>
   <entry>
+    <title>基于结构光扫描的三维点云数据重构算法研究_徐吉轩</title>
+    <url>/2023/06/10/%E5%9F%BA%E4%BA%8E%E7%BB%93%E6%9E%84%E5%85%89%E6%89%AB%E6%8F%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E7%82%B9%E4%BA%91%E6%95%B0%E6%8D%AE%E9%87%8D%E6%9E%84%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>三维重建</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>手写数字识别</title>
     <url>/2023/03/29/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB/</url>
     <content><![CDATA[<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://blog.csdn.net/ShakalakaPHD/article/details/110694933">基于卷积神经网络的手写数字识别（附数据集+完整代码+操作说明）_卷积神经网络进行手写数字识别_Hurri_cane的博客-CSDN博客</a></p>
@@ -244,9 +233,20 @@
       </tags>
   </entry>
   <entry>
-    <title>基于结构光扫描的三维点云数据重构算法研究_徐吉轩</title>
-    <url>/2023/06/10/%E5%9F%BA%E4%BA%8E%E7%BB%93%E6%9E%84%E5%85%89%E6%89%AB%E6%8F%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E7%82%B9%E4%BA%91%E6%95%B0%E6%8D%AE%E9%87%8D%E6%9E%84%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[]]></content>
+    <title>基于图像的三维重建——基于图像的立体视觉研究</title>
+    <url>/2023/06/10/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E7%AB%8B%E4%BD%93%E8%A7%86%E8%A7%89%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[<p>随着科技的发展，人们生活水平的进步，二维图像已经满足不了人类的需求了，三维立体图像应运而生。</p>
+<p>获取三维立体信息，可以根据不同的特性大致分为以下三类</p>
+<ol>
+<li><p>利用三维建模应用软件（GBM），但得先知道场景中事物的具体信息，比如物体的大小，形状，位置等。像3Dmax，AutoCAD等，都是利用一些基本的几何元素（长方体，球等），再经过一系列几何操作来构造出复杂的实物模型。操作复杂，且由于使用的是基本的几何体元素，所以精度和真实感都不高。</p>
+</li>
+<li><p>通过复杂的三维扫描系统来获取三维立体信息。这种方法是用激光或红外来测量物体与仪器间的距离，从而生成一个深度曲面。精度较高，但设备昂贵。</p>
+</li>
+<li><p>基于图像的三维重建方法（IBM），这种方法是先采集生活中的二维图像，再根据图像中的信息和已知的参数来重建物体模型。自动化程度高，计算机可以独立完成建模过程中的大部分数据处理工作。</p>
+</li>
+</ol>
+<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-06-10-21-18-53-1686403126776.png" alt="" data-align="center">
+]]></content>
       <tags>
         <tag>三维重建</tag>
       </tags>
@@ -285,6 +285,26 @@
       </tags>
   </entry>
   <entry>
+    <title>添加音乐</title>
+    <url>/2023/03/04/%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://blog.csdn.net/qq_35324057/article/details/104124723?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&utm_relevant_index=6">(131条消息) Hexo next主题中添加播放器Aplayer_Stride Max Zz的博客-CSDN博客</a></p>
+<p><a href="https://www.jianshu.com/p/3fb29cc7a00b">踩坑记–hexo中加入音乐 - 简书 (jianshu.com)</a></p>
+<h2 id="简单总结"><a href="#简单总结" class="headerlink" title="简单总结"></a>简单总结</h2><p>大体操作按照链接一，再按照链接二生成本地音乐外链，替换链接一的音乐链，就可以播放自己喜欢的音乐了。</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>aplayer leancloud</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>方向研究</title>
+    <url>/2023/05/19/%E6%96%B9%E5%90%91%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[<p>开发了一种将双目结构光相机采集的高密度点云数据转化为深度图像的新方法，构建了训练深度学习模型的焊缝表面缺陷深度图像数据集和用于对比的彩色图像数据集</p>
+]]></content>
+  </entry>
+  <entry>
     <title>时间序列</title>
     <url>/2023/05/22/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/</url>
     <content><![CDATA[<p>绝大部分行业场景，尤其是互联网、量化行业，每天都会产生大量的数据。金融领域股票价格随时间的走势；电商行业每日的销售额；旅游行业随着节假日周期变化的机票酒店价格等；</p>
@@ -294,10 +314,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>方向研究</title>
-    <url>/2023/05/19/%E6%96%B9%E5%90%91%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[<p>开发了一种将双目结构光相机采集的高密度点云数据转化为深度图像的新方法，构建了训练深度学习模型的焊缝表面缺陷深度图像数据集和用于对比的彩色图像数据集</p>
-]]></content>
+    <title>论文整理</title>
+    <url>/2023/07/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-10/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>论文整理</title>
@@ -328,25 +347,6 @@
       </tags>
   </entry>
   <entry>
-    <title>添加音乐</title>
-    <url>/2023/03/04/%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/</url>
-    <content><![CDATA[<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://blog.csdn.net/qq_35324057/article/details/104124723?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&utm_relevant_index=6">(131条消息) Hexo next主题中添加播放器Aplayer_Stride Max Zz的博客-CSDN博客</a></p>
-<p><a href="https://www.jianshu.com/p/3fb29cc7a00b">踩坑记–hexo中加入音乐 - 简书 (jianshu.com)</a></p>
-<h2 id="简单总结"><a href="#简单总结" class="headerlink" title="简单总结"></a>简单总结</h2><p>大体操作按照链接一，再按照链接二生成本地音乐外链，替换链接一的音乐链，就可以播放自己喜欢的音乐了。</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>aplayer leancloud</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>论文整理</title>
-    <url>/2023/07/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-10/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>论文整理</title>
     <url>/2023/03/23/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-3/</url>
     <content><![CDATA[<h1 id="论文引用"><a href="#论文引用" class="headerlink" title="论文引用"></a>论文引用</h1><p>[1]周博. 基于深度学习的铝型材表面缺陷检测技术研究[D].武汉纺织大学,2022.DOI:10.27698&#x2F;d.cnki.gwhxj.2022.000140.</p>
@@ -361,33 +361,6 @@
 </li>
 </ol>
 ]]></content>
-  </entry>
-  <entry>
-    <title>论文整理</title>
-    <url>/2023/04/06/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-4/</url>
-    <content><![CDATA[<h1 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h1><h2 id="NatureDeepReview-doi-10-1038-x2F-nature14539"><a href="#NatureDeepReview-doi-10-1038-x2F-nature14539" class="headerlink" title="NatureDeepReview                                  doi:10.1038&#x2F;nature14539"></a>NatureDeepReview                                  doi:10.1038&#x2F;nature14539</h2><p>深度学习通过使用反向传播算法来发现大型数据集中的复杂结构，以指示机器应该如何改变其内部参数。深度卷积网络在图像、视频、语音和音频处理方面取得了突破，而循环网络则在文本和语音等顺序数据方面大出风头。</p>
-<p>机器学习最常见的形式，无论深度与否，都是监督学习。</p>
-<p>我们计算一个目标函数来测量输出分数和期望分数模式之间的误差。然后，机器修改其内部可调参数，以减少这种误差。这些可调参数，通常称为权重。</p>
-<p>在实践中，大多数从业者使用一种称为随机梯度下降(SGD)的程序。这包括显示几个例子的输入向量，计算输出和误差，计算这些例子的平均梯度，并相应地调整权重。对训练集中的许多小样本集重复这个过程，直到目标函数的平均值停止下降。它之所以被称为随机，是因为每个小样本集对所有样本的平均梯度给出了一个有噪声的估计。与复杂得多的优化技术相比，这个简单的程序通常能惊人地快速找到一组良好的权重。</p>
-<p><img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-06-20-16-39-5a49a75876192c9a1ea19b821a5521c.png" alt="" width="303">     <img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-06-20-17-24-3a42b78e655362bd8b6b86aeab1d0bb.png" alt="" width="314"></p>
-<p>c，用于计算具有两个隐藏层和一个输出层的神经网络中的前向传递的方程，每个输出层构成一个模块，通过该模块可以反向传播梯度。在每一层，我们首先计算每个单元的总输入z，这是下一层单元输出的加权和。然后对z应用非线性函数f(.)来得到单位的输出。为简单起见，我们省略了偏差项。</p>
-<p>神经网络中使用的非线性函数包括近年来常用的整流线性单元(ReLU) f(z) &#x3D; max(0,z)，以及更传统的sigmoids，如双曲正切，f(z) &#x3D;(exp(z)−exp(−z))&#x2F;(exp(z)+exp(−z))和logistic函数logistic, f(z) &#x3D;1&#x2F;(1 +exp(−z))。</p>
-<p>d，用于计算向后传递的方程。在每个隐藏层，我们计算关于每个单元输出的误差导数，这是关于上面一层中单元的总输入的误差导数的加权和。然后通过乘以f(z)的梯度，将输出的误差导数转换为输入的误差导数。</p>
-<p>在输出层，相对于单位输出的误差导数通过对成本函数求导来计算。如果单位l的成本函数为0.5(yl−tl) 2，则得到yl−tl，其中tl是目标值。一旦∂E&#x2F;∂zk是已知的，从下面一层的单位j开始的连接的权值wjk的误差导数就是yj∂E&#x2F;∂zk。</p>
-<p>使用通用的学习过程自动学习好的特性</p>
-<p>隐藏层可以被视为以非线性方式扭曲输入</p>
-<p>There are four key ideas behind ConvNets that take advantage of the properties of natural signals: local connections, shared weights, pooling and the use of many layers.</p>
-<p>深度神经网络利用了许多自然信号都是组合层次结构的特性，其中高级特征是通过组合低级特征来获得的。</p>
-<p>深度学习理论表明，与不使用分布式表示的经典学习算法相比，深度网络具有两种不同的指数优势。这两个优点都来自组合的强大功能，并依赖于底层数据生成分布具有适当的组件结构。首先，学习分布式表示能够泛化到学习到的特征值的新组合，而不是在训练中看到的那些(例如，n个二进制特征可以有2^n个组合)。其次，在一个深度网络中组成表示层带来了另一个指数优势(深度指数)的潜力。</p>
-<h1 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h1><h2 id="Reducing-the-Dimensionality-of-Data-with-Neural-Networks"><a href="#Reducing-the-Dimensionality-of-Data-with-Neural-Networks" class="headerlink" title="Reducing the Dimensionality of Data with Neural Networks"></a>Reducing the Dimensionality of Data with Neural Networks</h2><h2 id="28-JULY-2006-VOL-313-SCIENCE-www-sciencemag-org"><a href="#28-JULY-2006-VOL-313-SCIENCE-www-sciencemag-org" class="headerlink" title="28 JULY 2006 VOL 313 SCIENCE www.sciencemag.org"></a>28 JULY 2006 VOL 313 SCIENCE <a href="http://www.sciencemag.org/">www.sciencemag.org</a></h2><p>降维有利于高维数据的分类、可视化、通信和存储。一种简单而广泛使用的方法是主成分分析。本文提出了。。。。。</p>
-<p>在具有多个隐藏层(2-4层)的非线性自编码器中，权值的优化非常困难。只有初始权重接近一个好的解，梯度下降才能很好地工作，但找到这样的初始权重需要一种非常不同的算法，需要每次学习一层特征。我们介绍了这个用于二进制数据的预训练过程，并将其推广到实值数据，并表明它适用于各种数据集。</p>
-]]></content>
-      <categories>
-        <category>论文整理</category>
-      </categories>
-      <tags>
-        <tag>深度学习基础</tag>
-      </tags>
   </entry>
   <entry>
     <title>基于深度学习的图像多标签分类算法研究_高士慧</title>
@@ -445,27 +418,31 @@
       </tags>
   </entry>
   <entry>
-    <title>Periodic Surface Defect Detection in Steel Plates Based on Deep Learning</title>
-    <url>/2023/05/14/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-8/</url>
-    <content><![CDATA[<p>辊印的缺陷对比度较低，很难检测。针对滚动痕迹等周期性缺陷具有较强的时间序列特征，提出了一种基于卷积神经网络(CNN)和长短期记忆(LSTM)的周期性缺陷检测方法。首先通过CNN网络提取缺陷图像的特征，然后将提取的特征向量输入到LSTM网络中进行缺陷识别。</p>
-<p>周期性缺陷的形态特征并不是固定的，因此传统的CNN检测率不高。</p>
-<p>滚印是一组具有周期性的不均匀缺陷。它们通常是由于轧辊疲劳、硬度不足或轧辊在轧制过程中表面有异物引起的。</p>
-<p>同一批次滚印的形态特征稳定且相似;由于钢板的反复轧制，不同批次轧辊痕迹的形态特征会有所不同。滚印存在于印版的上下表面，主要在印版的操作侧和中间位置。它们是肉眼可以观察到的亮点，以及相机捕捉到的图像中的黑点</p>
-<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-05-14-19-41-33-1684064486804.png"></p>
-<p>由于不同批次的辊印的形态特征有很大差异，所以传统的cnn通过提取形态学特征对缺陷进行分类的方法就难奏效，但由于滚痕缺陷具有较强的周期性，其时间序列特性适合LSTM处理</p>
-<p>通过某些方法生成足够多的样本</p>
-<p>CNN主要由三个部分组成:数据层、特征学习网络和分类网络。</p>
-<p>基于LSTM的周期性缺陷识别原理图7a显示了CNN + LSTM的总体流程。通过CNN从样本中提取特征，得到其对应的特征向量x，然后将<u>特征向量按时间序列</u>输入到LSTM中，输出O为识别结果。</p>
-<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-05-14-20-11-57-1684066310922.png"></p>
-<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-05-14-20-20-32-1684066825319.png"></p>
-<p>图7a显示了CNN + LSTM的整体流程。通过CNN从样本中提取特征，得到其对应的特征向量x，然后将特征向量按时间序列输入到LSTM中，输出O为识别结果。</p>
-<p>图7b显示了图7a中时刻t的LSTM[16]算法的具体流程。图7b中，Ct−1为前一时刻的信息，包括前一时刻输入网络的所有信息。结合当前时刻输入的信息Xt，先过滤前一时刻的信息，再过滤当前时刻输入的信息。通过过滤，没有缺陷时的信息，如图7a中的X2、Xt，被遗忘，而有缺陷时的信息，如图7a中的X0、Xt−1，被记住。因此，LSTM可以更好地记住缺陷特征，并防止长时间忘记缺陷特征。</p>
-<p>将缺陷图像与背景图像周期性排列拼接成一幅长矩形图像，得到周期性缺陷样本。将该样本输入到设计好的CNN中，提取卷积层的输出作为样本的特征向量。然后，将特征向量切成LSTM的输入向量。</p>
-<p>本研究使用Tensorflow框架实现LSTM。</p>
+    <title>论文整理</title>
+    <url>/2023/04/06/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-4/</url>
+    <content><![CDATA[<h1 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h1><h2 id="NatureDeepReview-doi-10-1038-x2F-nature14539"><a href="#NatureDeepReview-doi-10-1038-x2F-nature14539" class="headerlink" title="NatureDeepReview                                  doi:10.1038&#x2F;nature14539"></a>NatureDeepReview                                  doi:10.1038&#x2F;nature14539</h2><p>深度学习通过使用反向传播算法来发现大型数据集中的复杂结构，以指示机器应该如何改变其内部参数。深度卷积网络在图像、视频、语音和音频处理方面取得了突破，而循环网络则在文本和语音等顺序数据方面大出风头。</p>
+<p>机器学习最常见的形式，无论深度与否，都是监督学习。</p>
+<p>我们计算一个目标函数来测量输出分数和期望分数模式之间的误差。然后，机器修改其内部可调参数，以减少这种误差。这些可调参数，通常称为权重。</p>
+<p>在实践中，大多数从业者使用一种称为随机梯度下降(SGD)的程序。这包括显示几个例子的输入向量，计算输出和误差，计算这些例子的平均梯度，并相应地调整权重。对训练集中的许多小样本集重复这个过程，直到目标函数的平均值停止下降。它之所以被称为随机，是因为每个小样本集对所有样本的平均梯度给出了一个有噪声的估计。与复杂得多的优化技术相比，这个简单的程序通常能惊人地快速找到一组良好的权重。</p>
+<p><img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-06-20-16-39-5a49a75876192c9a1ea19b821a5521c.png" alt="" width="303">     <img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-06-20-17-24-3a42b78e655362bd8b6b86aeab1d0bb.png" alt="" width="314"></p>
+<p>c，用于计算具有两个隐藏层和一个输出层的神经网络中的前向传递的方程，每个输出层构成一个模块，通过该模块可以反向传播梯度。在每一层，我们首先计算每个单元的总输入z，这是下一层单元输出的加权和。然后对z应用非线性函数f(.)来得到单位的输出。为简单起见，我们省略了偏差项。</p>
+<p>神经网络中使用的非线性函数包括近年来常用的整流线性单元(ReLU) f(z) &#x3D; max(0,z)，以及更传统的sigmoids，如双曲正切，f(z) &#x3D;(exp(z)−exp(−z))&#x2F;(exp(z)+exp(−z))和logistic函数logistic, f(z) &#x3D;1&#x2F;(1 +exp(−z))。</p>
+<p>d，用于计算向后传递的方程。在每个隐藏层，我们计算关于每个单元输出的误差导数，这是关于上面一层中单元的总输入的误差导数的加权和。然后通过乘以f(z)的梯度，将输出的误差导数转换为输入的误差导数。</p>
+<p>在输出层，相对于单位输出的误差导数通过对成本函数求导来计算。如果单位l的成本函数为0.5(yl−tl) 2，则得到yl−tl，其中tl是目标值。一旦∂E&#x2F;∂zk是已知的，从下面一层的单位j开始的连接的权值wjk的误差导数就是yj∂E&#x2F;∂zk。</p>
+<p>使用通用的学习过程自动学习好的特性</p>
+<p>隐藏层可以被视为以非线性方式扭曲输入</p>
+<p>There are four key ideas behind ConvNets that take advantage of the properties of natural signals: local connections, shared weights, pooling and the use of many layers.</p>
+<p>深度神经网络利用了许多自然信号都是组合层次结构的特性，其中高级特征是通过组合低级特征来获得的。</p>
+<p>深度学习理论表明，与不使用分布式表示的经典学习算法相比，深度网络具有两种不同的指数优势。这两个优点都来自组合的强大功能，并依赖于底层数据生成分布具有适当的组件结构。首先，学习分布式表示能够泛化到学习到的特征值的新组合，而不是在训练中看到的那些(例如，n个二进制特征可以有2^n个组合)。其次，在一个深度网络中组成表示层带来了另一个指数优势(深度指数)的潜力。</p>
+<h1 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h1><h2 id="Reducing-the-Dimensionality-of-Data-with-Neural-Networks"><a href="#Reducing-the-Dimensionality-of-Data-with-Neural-Networks" class="headerlink" title="Reducing the Dimensionality of Data with Neural Networks"></a>Reducing the Dimensionality of Data with Neural Networks</h2><h2 id="28-JULY-2006-VOL-313-SCIENCE-www-sciencemag-org"><a href="#28-JULY-2006-VOL-313-SCIENCE-www-sciencemag-org" class="headerlink" title="28 JULY 2006 VOL 313 SCIENCE www.sciencemag.org"></a>28 JULY 2006 VOL 313 SCIENCE <a href="http://www.sciencemag.org/">www.sciencemag.org</a></h2><p>降维有利于高维数据的分类、可视化、通信和存储。一种简单而广泛使用的方法是主成分分析。本文提出了。。。。。</p>
+<p>在具有多个隐藏层(2-4层)的非线性自编码器中，权值的优化非常困难。只有初始权重接近一个好的解，梯度下降才能很好地工作，但找到这样的初始权重需要一种非常不同的算法，需要每次学习一层特征。我们介绍了这个用于二进制数据的预训练过程，并将其推广到实值数据，并表明它适用于各种数据集。</p>
 ]]></content>
       <categories>
         <category>论文整理</category>
       </categories>
+      <tags>
+        <tag>深度学习基础</tag>
+      </tags>
   </entry>
   <entry>
     <title>基于深度学习的图像多标签分类算法研究_张荣辉</title>
@@ -495,6 +472,29 @@
 <li>Head：YOLOv3</li>
 </ul>
 <p><img src="https://img-blog.csdnimg.cn/20200512144007178.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDc5MTk2NA==,size_16,color_FFFFFF,t_70#pic_center"></p>
+]]></content>
+      <categories>
+        <category>论文整理</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Periodic Surface Defect Detection in Steel Plates Based on Deep Learning</title>
+    <url>/2023/05/14/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-8/</url>
+    <content><![CDATA[<p>辊印的缺陷对比度较低，很难检测。针对滚动痕迹等周期性缺陷具有较强的时间序列特征，提出了一种基于卷积神经网络(CNN)和长短期记忆(LSTM)的周期性缺陷检测方法。首先通过CNN网络提取缺陷图像的特征，然后将提取的特征向量输入到LSTM网络中进行缺陷识别。</p>
+<p>周期性缺陷的形态特征并不是固定的，因此传统的CNN检测率不高。</p>
+<p>滚印是一组具有周期性的不均匀缺陷。它们通常是由于轧辊疲劳、硬度不足或轧辊在轧制过程中表面有异物引起的。</p>
+<p>同一批次滚印的形态特征稳定且相似;由于钢板的反复轧制，不同批次轧辊痕迹的形态特征会有所不同。滚印存在于印版的上下表面，主要在印版的操作侧和中间位置。它们是肉眼可以观察到的亮点，以及相机捕捉到的图像中的黑点</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-05-14-19-41-33-1684064486804.png"></p>
+<p>由于不同批次的辊印的形态特征有很大差异，所以传统的cnn通过提取形态学特征对缺陷进行分类的方法就难奏效，但由于滚痕缺陷具有较强的周期性，其时间序列特性适合LSTM处理</p>
+<p>通过某些方法生成足够多的样本</p>
+<p>CNN主要由三个部分组成:数据层、特征学习网络和分类网络。</p>
+<p>基于LSTM的周期性缺陷识别原理图7a显示了CNN + LSTM的总体流程。通过CNN从样本中提取特征，得到其对应的特征向量x，然后将<u>特征向量按时间序列</u>输入到LSTM中，输出O为识别结果。</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-05-14-20-11-57-1684066310922.png"></p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-05-14-20-20-32-1684066825319.png"></p>
+<p>图7a显示了CNN + LSTM的整体流程。通过CNN从样本中提取特征，得到其对应的特征向量x，然后将特征向量按时间序列输入到LSTM中，输出O为识别结果。</p>
+<p>图7b显示了图7a中时刻t的LSTM[16]算法的具体流程。图7b中，Ct−1为前一时刻的信息，包括前一时刻输入网络的所有信息。结合当前时刻输入的信息Xt，先过滤前一时刻的信息，再过滤当前时刻输入的信息。通过过滤，没有缺陷时的信息，如图7a中的X2、Xt，被遗忘，而有缺陷时的信息，如图7a中的X0、Xt−1，被记住。因此，LSTM可以更好地记住缺陷特征，并防止长时间忘记缺陷特征。</p>
+<p>将缺陷图像与背景图像周期性排列拼接成一幅长矩形图像，得到周期性缺陷样本。将该样本输入到设计好的CNN中，提取卷积层的输出作为样本的特征向量。然后，将特征向量切成LSTM的输入向量。</p>
+<p>本研究使用Tensorflow框架实现LSTM。</p>
 ]]></content>
       <categories>
         <category>论文整理</category>
