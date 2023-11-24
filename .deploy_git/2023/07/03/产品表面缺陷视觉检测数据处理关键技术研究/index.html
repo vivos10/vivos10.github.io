@@ -17,13 +17,13 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"vivos10.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="曲率和法向等微分信息估算是点云数据处理的基础。 三维视觉表面缺陷检测技术和逆向工程技术具有许多共性。 基于点云数据缺陷检测流程图  数据配准算法：ICP">
 <meta property="og:type" content="article">
 <meta property="og:title" content="论文整理">
-<meta property="og:url" content="http://example.com/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/index.html">
+<meta property="og:url" content="https://vivos10.github.io/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/index.html">
 <meta property="og:site_name" content="布鲁克林有棵树">
 <meta property="og:description" content="曲率和法向等微分信息估算是点云数据处理的基础。 三维视觉表面缺陷检测技术和逆向工程技术具有许多共性。 基于点云数据缺陷检测流程图  数据配准算法：ICP">
 <meta property="og:locale" content="zh_CN">
@@ -35,7 +35,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="c:/Users/HP/AppData/Roaming/marktext/images/2023-07-03-16-27-45-%60PD]GZ7_M0KX8DS%7DZELKIGA.png">
 
-<link rel="canonical" href="http://example.com/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/">
+<link rel="canonical" href="https://vivos10.github.io/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/">
 
 
 <script id="page-configurations">
@@ -202,7 +202,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/">
+    <link itemprop="mainEntityOfPage" href="https://vivos10.github.io/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
