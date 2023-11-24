@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.2">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="Done is better than perfect.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="布鲁克林有棵树">
+<meta property="og:url" content="http://example.com/page/3/index.html">
+<meta property="og:site_name" content="布鲁克林有棵树">
+<meta property="og:description" content="Done is better than perfect.">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="Blog Modeling">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/page/3/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>布鲁克林有棵树</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+  
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+<link rel="alternate" href="/atom.xml" title="布鲁克林有棵树" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+
+<link rel="stylesheet" href="/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script>
+
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">布鲁克林有棵树</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">本来无一物，何处惹尘埃</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/03/04/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="<font color="#FFFFFF">Done is better than perfect.</font>">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="布鲁克林有棵树">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/03/04/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/" class="post-title-link" itemprop="url">论文整理</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-03-04 14:39:56" itemprop="dateCreated datePublished" datetime="2023-03-04T14:39:56+08:00">2023-03-04</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-04-26 19:33:04" itemprop="dateModified" datetime="2023-04-26T19:33:04+08:00">2023-04-26</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/" itemprop="url" rel="index"><span itemprop="name">论文整理</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>yolo将目标检测定为一个回归问题，可以直接根据检测性能进行端到端优化，因此相较于其他检测系统yolo速度较快。与最先进的检测系统相比，yolo会产生更多的定位误差且在小目标检测上表现较差，但很少在背景上出错，而且对比其他检测方法，yolo的泛化能力更好。</p>
+<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>人类瞥一眼图像就能知道图像中有什么物体，物体的位置以及他们是如何交互的。而目标检测系统要做的就是不断接近人眼检测的效果，在精度，召回率，速度上统一协调进步。</p>
+<h1 id="与其他检测系统的比较"><a href="#与其他检测系统的比较" class="headerlink" title="与其他检测系统的比较"></a>与其他检测系统的比较</h1><p>R-CNN使用区域建议方法，首先在图像上生成潜在的边界框，然后在这些推荐的框上运行分类器。分类后再进行后处理用于细化边界框，消除重复检测，再根据场景中的其他物体重新预测检测框。这种检测很难优化，因为每个单独的组件都必须单独训练。</p>
+<p>对比而言，yolo将目标检测定义为一个单独的回归问题，只需一次就可以在图像中预测物体的存在和位置。</p>
+<h2 id="yolo的优点："><a href="#yolo的优点：" class="headerlink" title="yolo的优点："></a>yolo的优点：</h2><p>1.速度快<br>2.与基于滑动窗口和区域建议的技术不同，YOLO在训练和测试期间看到整个图像，因此它隐式地编码了关于类及其外观的上下文信息。</p>
+<p>快速R-CNN是一种顶级检测方法，它将图像中的背景块误认为是对象，因为它看不到更大的上下文。与Fast R-CNN相比，YOLO产生的背景错误不到一半。</p>
+<p>3.泛化能力好，因此在应用于新领域或意外输入时，它不太可能崩溃。</p>
+<h2 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h2><p>1.YOLO在精度方面仍落后于最先进的检测系统。虽然它可以快速识别图像中的对象，但它很难精确定位某些对象，尤其是小对象。</p>
+<h1 id="网络设计"><a href="#网络设计" class="headerlink" title="网络设计"></a>网络设计</h1><p>我们用卷积神经网络来实现该模型，并在PASCAL VOC检测数据集上进行评估。网络的初始卷积层提取特征，全连接层输出概率和坐标。我们的网络架构受到图像分类的Googlenet模型的启发，我们的网络有24个卷基层和2个全连接层。</p>
+<p>与Lin等人类似，我们只使用1×1缩减层，然后使用3×3卷积层，而不是GoogLeNet使用的初始模块。整个网络如图3所示。</p>
+<p>我们还训练了YOLO的快速版本，旨在突破快速目标检测的界限。快速YOLO使用具有较少卷积层（9而不是24）和较少滤波器的神经网络。除了网络的大小，YOLO和快速YOLO之间的所有训练和测试参数都是相同的。</p>
+<h1 id="训练"><a href="#训练" class="headerlink" title="训练"></a>训练</h1><p>我们在ImageNet 1000类竞争数据集上预处理卷积层[29]。对于预训练，我们使用图3中的前20个卷积层，然后是平均池化层和完全连接层。我们对该网络进行了大约一周的培训，并在ImageNet 2012验证集上实现了88%的单作物前5名准确率，与Caffe模型动物园中的GoogLeNet模型相当[24]。</p>
+<p>然后我们转换模型以执行检测。Ren等人表明，将卷积层和连接层添加到预训练的网络可以提高性能[28]。</p>
+<p>根据他们的示例，我们添加了四个卷积层和两个具有随机初始化权重的完全连接层。检测通常需要细粒度的视觉信息，因此我们将网络的输入分辨率从224×224提高到448×448。</p>
+<h1 id="yolo算法出现的问题与优化："><a href="#yolo算法出现的问题与优化：" class="headerlink" title="yolo算法出现的问题与优化："></a>yolo算法出现的问题与优化：</h1><p> 1.问题：它将定位误差与可能不理想的分类误差同等加权，并不完全符合我们最大化平均精度的目标。此外，在每个图像中，许多网格单元都不包含任何对象。这将这些单元格的“置信度”分数推向零，通常会超过包含对象的单元格的梯度。这可能会导致模型不稳定，导致训练早期出现分歧。</p>
+<p>   解决：增加了边界框坐标预测的损失，并减少了不包含对象的框的置信度预测的损失。我们使用两个参数λcoord和λnoobj来实现这一点。我们将λcoord设置为5，λnoobj设置为.5。</p>
+<p>平方和误差也对大小框中的误差进行加权。我们的误差度量应该反映出大框中的小偏差比小框中的重要。为了部分解决这个问题，我们预测边界框宽度和高度的平方根，而不是直接预测宽度和高度。</p>
+<p>2.如果以高学习率开始，模型往往会因为不稳定的梯度而偏离。因此可以将学习率缓慢提高。</p>
+<p>3.针对过度拟合问题，使用丢弃和大量数据扩充。🙏还未深入研究</p>
+<p>损失函数：</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-03-07-16-53-37-image.png"></p>
+<h1 id="推论inference："><a href="#推论inference：" class="headerlink" title="推论inference："></a>推论inference：</h1><p>大的物体或者是靠经多个检测框边缘的物体能够被多个检测框定位到，为了消除这些重复检测，可以使用非最大抑制，可以增加23%的map。</p>
+<p>yolo的局限性：</p>
+<p>1.由于yolo检测将图片分成了若干个网格，每个网格只能预测两个框，并且只能有一个类。这种空间约束大大限制了模型预测附近物体的数量，比如大规模的鸟，成群的牛羊等等。</p>
+<p>2.由于我们的模型会从数据中预测边界框，数据中的一些新的或不寻常的纵横比或规格的图像就很难被采纳。我们的模型只会依靠一般的特征去分辨物体。</p>
+<p>3.损失函数对待小边界框和大边界框的错误是相同的，但是按道理说，同一个尺寸的错误，在大边界框是无所谓的，小边界框上却是致命的，因此应该追加权重处理。</p>
+<h1 id="与其他检测系统的比较-1"><a href="#与其他检测系统的比较-1" class="headerlink" title="与其他检测系统的比较"></a>与其他检测系统的比较</h1><p>目标检测通道一般是</p>
+<p>1.从输入图像中提取一组鲁棒特征<br>2.使用分类器或定位器以滑动窗口的方式在整个图像或图像中的一些区域子集上运行。</p>
+<p>DPM:</p>
+<p>R-CNN:</p>
+<p>。。。🙏这部分暂时略过，有缘再写。。。。。</p>
+<h1 id="实验"><a href="#实验" class="headerlink" title="实验"></a>实验</h1><p><img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-03-04-14-44-00-image.png" alt="" width="244">   <img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-03-04-14-44-51-image.png" title="" alt="" width="300"></p>
+<p>从上面两张图可以看出，fast R-cnn总体精度较高，但检测背景图错误率较高，而yolo在定位上犯的错误较多。可以将二者结合起来，在fast R-cnn上应用yolo消除部分背景误差，来达到提高精度的目的。🙏此部分在论文中有写，暂时略过。。。。</p>
+<p>通过艺术品数据集的训练效果来看，yolo&gt;DPM&gt;Faster R-cnn</p>
+<p>在连接摄像头时，yolo的表现也很好，可以实时检测图像，这更像是一种追踪系统，在物体移动和变化时检测物体，由此产生的系统增加了互动性和体验感。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/03/04/%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="<font color="#FFFFFF">Done is better than perfect.</font>">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="布鲁克林有棵树">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/03/04/%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/" class="post-title-link" itemprop="url">添加音乐</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-03-04 13:43:43 / 修改时间：14:11:04" itemprop="dateCreated datePublished" datetime="2023-03-04T13:43:43+08:00">2023-03-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" itemprop="url" rel="index"><span itemprop="name">博客搭建</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_35324057/article/details/104124723?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&utm_relevant_index=6">(131条消息) Hexo next主题中添加播放器Aplayer_Stride Max Zz的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/3fb29cc7a00b">踩坑记–hexo中加入音乐 - 简书 (jianshu.com)</a></p>
+<h2 id="简单总结"><a href="#简单总结" class="headerlink" title="简单总结"></a>简单总结</h2><p>大体操作按照链接一，再按照链接二生成本地音乐外链，替换链接一的音乐链，就可以播放自己喜欢的音乐了。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/28/%E5%8E%BB%E7%9C%8B%E8%AE%BA%E6%96%87%E5%90%A7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="<font color="#FFFFFF">Done is better than perfect.</font>">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="布鲁克林有棵树">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/02/28/%E5%8E%BB%E7%9C%8B%E8%AE%BA%E6%96%87%E5%90%A7/" class="post-title-link" itemprop="url">去看论文吧</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-02-28 15:48:59" itemprop="dateCreated datePublished" datetime="2023-02-28T15:48:59+08:00">2023-02-28</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-03-12 18:13:59" itemprop="dateModified" datetime="2023-03-12T18:13:59+08:00">2023-03-12</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="一天一篇论文打卡"><a href="#一天一篇论文打卡" class="headerlink" title="一天一篇论文打卡"></a>一天一篇论文打卡</h1><table>
+<thead>
+<tr>
+<th align="center">周一</th>
+<th align="center">周二</th>
+<th align="center">周三</th>
+<th align="center">周四</th>
+<th align="center">周五</th>
+<th align="center">周六</th>
+<th align="center">周日</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">√</td>
+<td align="center">×</td>
+</tr>
+<tr>
+<td align="center">×</td>
+<td align="center">√</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+</tr>
+</tbody></table>
+<p>3.13</p>
+<table>
+<thead>
+<tr>
+<th align="center">周一</th>
+<th align="center">周二</th>
+<th align="center">周三</th>
+<th align="center">周四</th>
+<th align="center">周五</th>
+<th align="center">周六</th>
+<th align="center">周日</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="2023希望养成的好习惯"><a href="#2023希望养成的好习惯" class="headerlink" title="2023希望养成的好习惯"></a>2023希望养成的好习惯</h1><h2 id="上厕所不看手机"><a href="#上厕所不看手机" class="headerlink" title="上厕所不看手机"></a>上厕所不看手机</h2><h2 id="9点后不玩手机"><a href="#9点后不玩手机" class="headerlink" title="9点后不玩手机"></a>9点后不玩手机</h2><p>3.13</p>
+<table>
+<thead>
+<tr>
+<th align="center">周一</th>
+<th align="center">周二</th>
+<th align="center">周三</th>
+<th align="center">周四</th>
+<th align="center">周五</th>
+<th align="center">周六</th>
+<th align="center">周日</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/01/25/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="<font color="#FFFFFF">Done is better than perfect.</font>">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="布鲁克林有棵树">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/01/25/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-01-25 17:26:22 / 修改时间：17:25:53" itemprop="dateCreated datePublished" datetime="2023-01-25T17:26:22+08:00">2023-01-25</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+  </nav>
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"><font color="#FFFFFF">Done is better than perfect.</font></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">24</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共7.7k字</span>
+</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  <script defer src="/lib/three/three.min.js"></script>
+    <script defer src="/lib/three/canvas_sphere.min.js"></script>
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

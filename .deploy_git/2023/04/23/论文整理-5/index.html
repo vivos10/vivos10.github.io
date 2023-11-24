@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.2">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="目的： 对这些类别、内容都不相同的图片进行合理有效的管理 研究背景和意义：对于普通用户来说，平均每个用户的智能手机中大概会存储一千多张照片，并且随着手机与相机拍照功能的增强和各种图片后期处理软件的流行，智能设备中的图片数量也在逐渐增加。如何高效管理这些海量的图片，并且便于用户的查询使用成为一个急需解决的课题。 图像多标签分类，即为每张图像的不同目标分别赋予类别标签，然后以这些标签为依据对图像进行">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基于深度学习的图像多标签分类算法研究_高士慧">
+<meta property="og:url" content="http://example.com/2023/04/23/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-5/index.html">
+<meta property="og:site_name" content="布鲁克林有棵树">
+<meta property="og:description" content="目的： 对这些类别、内容都不相同的图片进行合理有效的管理 研究背景和意义：对于普通用户来说，平均每个用户的智能手机中大概会存储一千多张照片，并且随着手机与相机拍照功能的增强和各种图片后期处理软件的流行，智能设备中的图片数量也在逐渐增加。如何高效管理这些海量的图片，并且便于用户的查询使用成为一个急需解决的课题。 图像多标签分类，即为每张图像的不同目标分别赋予类别标签，然后以这些标签为依据对图像进行">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-23-15-55-20-image.png">
+<meta property="og:image" content="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-23-19-25-34-image.png">
+<meta property="og:image" content="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-26-10-28-51-image.png">
+<meta property="og:image" content="c:/Users/HP/AppData/Roaming/marktext/images/2023-04-26-11-13-44-image.png">
+<meta property="article:published_time" content="2023-04-23T07:19:12.000Z">
+<meta property="article:modified_time" content="2023-06-05T12:07:49.073Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="多标签算法">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-23-15-55-20-image.png">
+
+<link rel="canonical" href="http://example.com/2023/04/23/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-5/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>基于深度学习的图像多标签分类算法研究_高士慧 | 布鲁克林有棵树</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+  
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+<link rel="alternate" href="/atom.xml" title="布鲁克林有棵树" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+
+<link rel="stylesheet" href="/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script>
+
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">布鲁克林有棵树</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">本来无一物，何处惹尘埃</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/23/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-5/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="<font color="#FFFFFF">Done is better than perfect.</font>">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="布鲁克林有棵树">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          基于深度学习的图像多标签分类算法研究_高士慧
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-04-23 15:19:12" itemprop="dateCreated datePublished" datetime="2023-04-23T15:19:12+08:00">2023-04-23</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-06-05 20:07:49" itemprop="dateModified" datetime="2023-06-05T20:07:49+08:00">2023-06-05</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/" itemprop="url" rel="index"><span itemprop="name">论文整理</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="目的："><a href="#目的：" class="headerlink" title="目的："></a>目的：</h1><p> 对这些类别、内容都不相同的图片进行合理有效的管理</p>
+<h1 id="研究背景和意义："><a href="#研究背景和意义：" class="headerlink" title="研究背景和意义："></a>研究背景和意义：</h1><p>对于普通用户来说，平均每个用户的智能手机中大概会存储一千多张照片，并且随着手机与相机拍照功能的增强和各种图片后期处理软件的流行，智能设备中的图片数量也在逐渐增加。如何高效管理这些海量的图片，并且便于用户的查询使用成为一个急需解决的课题。</p>
+<p>图像多标签分类，即为每张图像的不同目标分别赋予类别标签，然后以这些标签为依据对图像进行分类，将图片归属到不同的类别中。这样通过类别标签也可以从大量的图像中检索出需要查询的图像。</p>
+<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-23-15-55-20-image.png" alt="" data-align="center">
+
+<p>上图可以为图像赋予人、狗和长椅的标签，即可以通过这三个标签将图像分到三个不同的类别中。并且分别以这三个标签为依据也可以检索出这张图像。</p>
+<h1 id="国内外研究现状"><a href="#国内外研究现状" class="headerlink" title="国内外研究现状"></a>国内外研究现状</h1><p> 卷积神经网络由卷积层、激励层、池化层和全连接层构成。卷积层的作用主要是通过卷积操作来提取特征，进而获取特征图。池化层的主要作用是降采样。</p>
+<p>基于各种高效的网络模型，学者提出了很多适用于多标签分类的算法。将其分为两类，第一类是基于内容的多标签分类方法，第二类是基于检测的图像多标签分类方法。</p>
+<p>第一类：🙏。。。。。。。</p>
+<p>第二类：该方法首先训练一个目标检测模型，然后通过知识蒸馏模块将该模型参数移植到<br>多标签分类的网络中来完成分类任务。</p>
+<p>借鉴目标检测成熟的方案去设计算法和网络结构，并通过语义关系的对应对检测结果进行处理完成图像多标签分类的任务。</p>
+<p>图像多标签分类任务存在着较大的挑战</p>
+<ol>
+<li><p>当下此类算法网络结构复杂而庞大，分类准确率低。</p>
+</li>
+<li><p>在对多个目标进行识别时常常忽略了各个目标之间的关联性，只是对每个目标进行单个识别。不同目标的类别之间具有一定的关联性，基于这种关联性可以提高对目标识别的准确性。</p>
+</li>
+</ol>
+<h1 id="本文主要研究内容"><a href="#本文主要研究内容" class="headerlink" title="本文主要研究内容"></a>本文主要研究内容</h1><ul>
+<li><p>基于高效Refinedet算法的网络结构，提出了一个用于图像多标签分类的密集连接的细化网络（ＤｅｎｓｅｌｙＣｏｎｎｅｃｔｅｄＲｅｆｉｎｅｍｅｎｔＮｅｔｗｏｒｋ），简称为ＤＣＲＮ。</p>
+</li>
+<li><p>在ＤＣＲＮ的基础上引入了注意力机制，提出了用于多标签分类的ａｔｔｅｎｔｉｏn机制下的ＤＣＲＮ算法。</p>
+</li>
+<li><p>在对算法进行上述优化后，将检测结果进行语义关系的对应，将目标检测的结果转化为图像多标签分类所需要的类别结果。为图像赋予了便于分类和检索的多个标签。</p>
+</li>
+<li><p>在对算法进行研究和训练并得到了更高的准确率后，本文设计并实现了一个基于Ｃ／Ｓ架构的图像多标签分类系统平台，以作者拍摄所得的生活照作为系统的输入，经过上述算法对图像进行测试。</p>
+</li>
+</ul>
+<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-23-19-25-34-image.png" alt="" data-align="center">
+
+<h1 id="基于检测-amp-深度学习的图像多标签分类算法"><a href="#基于检测-amp-深度学习的图像多标签分类算法" class="headerlink" title="基于检测&amp;深度学习的图像多标签分类算法"></a>基于检测&amp;深度学习的图像多标签分类算法</h1><h2 id="深度学习的基础"><a href="#深度学习的基础" class="headerlink" title="深度学习的基础"></a>深度学习的基础</h2><p>深度学习的核心思想是<u>神经网络</u>，神经网络的运算主要分为三步：正向传播、反向传播、梯度下降。正向传播的主要目的是计算预测值，主要过程是从输入层输入数据之后，经过一层一层的计算到输出层，得到预测值。反向传播主要是来度量预测值的准确性，用正向传播得到的预测值与采集回来的标签之做比较，两者之间的差距称为损失函数。梯度下降即损失函数最小化的过程，主要目的是对网络结构进行优化。神经网络包含很多种形式，其中深度学习中应用最广泛的是卷积神经网络CNN</p>
+<p><u>卷积神经网络</u>是含有卷积层的神经网络，它由卷积层、激励层、池化层和全连接层构成。</p>
+<p>ＣＮＮ—般使用的是ReLU激活函数，它的特点是收敛快，求梯度简单。</p>
+<img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-26-10-28-51-image.png" title="" alt="" data-align="center">
+
+<p>由于卷积层是线性运算，而线性模型的表达能力不够，所以引入激活函数，即非线性运算，这样可以大大增强模型的表达能力和泛化能力</p>
+<h2 id="目标检测算法"><a href="#目标检测算法" class="headerlink" title="目标检测算法"></a>目标检测算法</h2><h2 id="目标检测发展历程"><a href="#目标检测发展历程" class="headerlink" title="目标检测发展历程"></a>目标检测发展历程</h2><p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-04-26-11-13-44-image.png"></p>
+<p>本文重点关注Refinedet和DSOD，在此基础上进行改进</p>
+<h2 id="图像分类算法特征网络模型"><a href="#图像分类算法特征网络模型" class="headerlink" title="图像分类算法特征网络模型"></a>图像分类算法特征网络模型</h2><p>本文将对工作所用到的ＶＧＧＮｅｔ、ＤｅｎｓｅｔＮｅｔ和ＲｅｓＮｅｔ的网络结构进行详细介绍。</p>
+<p>🙏。。。。。。。。。。。。。。</p>
+<h1 id="网络模型的搭建和训练"><a href="#网络模型的搭建和训练" class="headerlink" title="网络模型的搭建和训练"></a>网络模型的搭建和训练</h1><p>卷积神经网络一般包括训练和测试两大阶段。训练是把训练数据和神经网络模型用ＧＰＵ提炼出模型参数。测试是把测试数据用训练好的模型运行后查看结果。</p>
+<p>本节将对深度学习框架的选择和网络模型的训练优化两个方面进行详细论述。</p>
+<p>为了更加方便的对卷积神经网络进行训练，各种开源深度学习框架也层出不穷，<br>常见的有Ｃａｆｆｅ，ＣＮＴＫ，ＤｅｅｐＬｅａｍｉｎｇ４ｊ，ＰｙＴｏｒｃｈＫｅｒａｓ，Ｔｈｅａｎｏ、Ｍｘｎｅｔ和ＴｅｎｓｏｒＦｌｏｗ网等。<br>本文作者选择Ｍｘｎｅｔ作为训练神经网络的深度学习框架。</p>
+<p>本算法使用的主千网络是ＲｅｓＮｅｔ１０１，首先将数据集的相关文件准备好并放到指定的位置，然后按照要求对程序中的参数如ｅｐｏｃｈ、ｂａｔｃｈｓｉｚｅ、ｌｅａｒｎｉｎｇｒａｔｅ等进行调整。将图像输入后，网络采用梯度下降的方法不断更新参数，直到损失函数收敛为止</p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div></div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="John Doe 微信支付">
+        <p>微信支付</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%A4%9A%E6%A0%87%E7%AD%BE%E7%AE%97%E6%B3%95/" rel="tag"># 多标签算法</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/04/14/PLC/" rel="prev" title="PLC">
+      <i class="fa fa-chevron-left"></i> PLC
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2023/04/26/Bilibili-yolo%E5%9F%BA%E7%A1%80/" rel="next" title="Bilibili&yolo基础">
+      Bilibili&yolo基础 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%9B%AE%E7%9A%84%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">目的：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%A0%94%E7%A9%B6%E8%83%8C%E6%99%AF%E5%92%8C%E6%84%8F%E4%B9%89%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">研究背景和意义：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%BD%E5%86%85%E5%A4%96%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6"><span class="nav-number">3.</span> <span class="nav-text">国内外研究现状</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%AC%E6%96%87%E4%B8%BB%E8%A6%81%E7%A0%94%E7%A9%B6%E5%86%85%E5%AE%B9"><span class="nav-number">4.</span> <span class="nav-text">本文主要研究内容</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9F%BA%E4%BA%8E%E6%A3%80%E6%B5%8B-amp-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%9B%BE%E5%83%8F%E5%A4%9A%E6%A0%87%E7%AD%BE%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95"><span class="nav-number">5.</span> <span class="nav-text">基于检测&amp;深度学习的图像多标签分类算法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%9F%BA%E7%A1%80"><span class="nav-number">5.1.</span> <span class="nav-text">深度学习的基础</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%AE%97%E6%B3%95"><span class="nav-number">5.2.</span> <span class="nav-text">目标检测算法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B"><span class="nav-number">5.3.</span> <span class="nav-text">目标检测发展历程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E7%89%B9%E5%BE%81%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B%EE%97%92%EE%97%8F"><span class="nav-number">5.4.</span> <span class="nav-text">图像分类算法特征网络模型</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%90%AD%E5%BB%BA%E5%92%8C%E8%AE%AD%E7%BB%83"><span class="nav-number">6.</span> <span class="nav-text">网络模型的搭建和训练</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"><font color="#FFFFFF">Done is better than perfect.</font></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">24</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共7.7k字</span>
+</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  <script defer src="/lib/three/three.min.js"></script>
+    <script defer src="/lib/three/canvas_sphere.min.js"></script>
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

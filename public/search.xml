@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/01/25/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>去看论文吧</title>
+    <url>/2023/02/28/%E5%8E%BB%E7%9C%8B%E8%AE%BA%E6%96%87%E5%90%A7/</url>
+    <content><![CDATA[<h1 id="一天一篇论文打卡"><a href="#一天一篇论文打卡" class="headerlink" title="一天一篇论文打卡"></a>一天一篇论文打卡</h1><table>
+<thead>
+<tr>
+<th align="center">周一</th>
+<th align="center">周二</th>
+<th align="center">周三</th>
+<th align="center">周四</th>
+<th align="center">周五</th>
+<th align="center">周六</th>
+<th align="center">周日</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">√</td>
+<td align="center">×</td>
+</tr>
+<tr>
+<td align="center">×</td>
+<td align="center">√</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+<td align="center">×</td>
+</tr>
+</tbody></table>
+<p>3.13</p>
+<table>
+<thead>
+<tr>
+<th align="center">周一</th>
+<th align="center">周二</th>
+<th align="center">周三</th>
+<th align="center">周四</th>
+<th align="center">周五</th>
+<th align="center">周六</th>
+<th align="center">周日</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="2023希望养成的好习惯"><a href="#2023希望养成的好习惯" class="headerlink" title="2023希望养成的好习惯"></a>2023希望养成的好习惯</h1><h2 id="上厕所不看手机"><a href="#上厕所不看手机" class="headerlink" title="上厕所不看手机"></a>上厕所不看手机</h2><h2 id="9点后不玩手机"><a href="#9点后不玩手机" class="headerlink" title="9点后不玩手机"></a>9点后不玩手机</h2><p>3.13</p>
+<table>
+<thead>
+<tr>
+<th align="center">周一</th>
+<th align="center">周二</th>
+<th align="center">周三</th>
+<th align="center">周四</th>
+<th align="center">周五</th>
+<th align="center">周六</th>
+<th align="center">周日</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>打卡</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>添加音乐</title>
+    <url>/2023/03/04/%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://blog.csdn.net/qq_35324057/article/details/104124723?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~ESLANDING~default-3-104124723-blog-107868192.pc_relevant_landingrelevant&utm_relevant_index=6">(131条消息) Hexo next主题中添加播放器Aplayer_Stride Max Zz的博客-CSDN博客</a></p>
+<p><a href="https://www.jianshu.com/p/3fb29cc7a00b">踩坑记–hexo中加入音乐 - 简书 (jianshu.com)</a></p>
+<h2 id="简单总结"><a href="#简单总结" class="headerlink" title="简单总结"></a>简单总结</h2><p>大体操作按照链接一，再按照链接二生成本地音乐外链，替换链接一的音乐链，就可以播放自己喜欢的音乐了。</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>aplayer leancloud</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论文整理</title>
+    <url>/2023/03/04/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/</url>
+    <content><![CDATA[<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>yolo将目标检测定为一个回归问题，可以直接根据检测性能进行端到端优化，因此相较于其他检测系统yolo速度较快。与最先进的检测系统相比，yolo会产生更多的定位误差且在小目标检测上表现较差，但很少在背景上出错，而且对比其他检测方法，yolo的泛化能力更好。</p>
+<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>人类瞥一眼图像就能知道图像中有什么物体，物体的位置以及他们是如何交互的。而目标检测系统要做的就是不断接近人眼检测的效果，在精度，召回率，速度上统一协调进步。</p>
+<h1 id="与其他检测系统的比较"><a href="#与其他检测系统的比较" class="headerlink" title="与其他检测系统的比较"></a>与其他检测系统的比较</h1><p>R-CNN使用区域建议方法，首先在图像上生成潜在的边界框，然后在这些推荐的框上运行分类器。分类后再进行后处理用于细化边界框，消除重复检测，再根据场景中的其他物体重新预测检测框。这种检测很难优化，因为每个单独的组件都必须单独训练。</p>
+<p>对比而言，yolo将目标检测定义为一个单独的回归问题，只需一次就可以在图像中预测物体的存在和位置。</p>
+<h2 id="yolo的优点："><a href="#yolo的优点：" class="headerlink" title="yolo的优点："></a>yolo的优点：</h2><p>1.速度快<br>2.与基于滑动窗口和区域建议的技术不同，YOLO在训练和测试期间看到整个图像，因此它隐式地编码了关于类及其外观的上下文信息。</p>
+<p>快速R-CNN是一种顶级检测方法，它将图像中的背景块误认为是对象，因为它看不到更大的上下文。与Fast R-CNN相比，YOLO产生的背景错误不到一半。</p>
+<p>3.泛化能力好，因此在应用于新领域或意外输入时，它不太可能崩溃。</p>
+<h2 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h2><p>1.YOLO在精度方面仍落后于最先进的检测系统。虽然它可以快速识别图像中的对象，但它很难精确定位某些对象，尤其是小对象。</p>
+<h1 id="网络设计"><a href="#网络设计" class="headerlink" title="网络设计"></a>网络设计</h1><p>我们用卷积神经网络来实现该模型，并在PASCAL VOC检测数据集上进行评估。网络的初始卷积层提取特征，全连接层输出概率和坐标。我们的网络架构受到图像分类的Googlenet模型的启发，我们的网络有24个卷基层和2个全连接层。</p>
+<p>与Lin等人类似，我们只使用1×1缩减层，然后使用3×3卷积层，而不是GoogLeNet使用的初始模块。整个网络如图3所示。</p>
+<p>我们还训练了YOLO的快速版本，旨在突破快速目标检测的界限。快速YOLO使用具有较少卷积层（9而不是24）和较少滤波器的神经网络。除了网络的大小，YOLO和快速YOLO之间的所有训练和测试参数都是相同的。</p>
+<h1 id="训练"><a href="#训练" class="headerlink" title="训练"></a>训练</h1><p>我们在ImageNet 1000类竞争数据集上预处理卷积层[29]。对于预训练，我们使用图3中的前20个卷积层，然后是平均池化层和完全连接层。我们对该网络进行了大约一周的培训，并在ImageNet 2012验证集上实现了88%的单作物前5名准确率，与Caffe模型动物园中的GoogLeNet模型相当[24]。</p>
+<p>然后我们转换模型以执行检测。Ren等人表明，将卷积层和连接层添加到预训练的网络可以提高性能[28]。</p>
+<p>根据他们的示例，我们添加了四个卷积层和两个具有随机初始化权重的完全连接层。检测通常需要细粒度的视觉信息，因此我们将网络的输入分辨率从224×224提高到448×448。</p>
+<h1 id="yolo算法出现的问题与优化："><a href="#yolo算法出现的问题与优化：" class="headerlink" title="yolo算法出现的问题与优化："></a>yolo算法出现的问题与优化：</h1><p> 1.问题：它将定位误差与可能不理想的分类误差同等加权，并不完全符合我们最大化平均精度的目标。此外，在每个图像中，许多网格单元都不包含任何对象。这将这些单元格的“置信度”分数推向零，通常会超过包含对象的单元格的梯度。这可能会导致模型不稳定，导致训练早期出现分歧。</p>
+<p>   解决：增加了边界框坐标预测的损失，并减少了不包含对象的框的置信度预测的损失。我们使用两个参数λcoord和λnoobj来实现这一点。我们将λcoord设置为5，λnoobj设置为.5。</p>
+<p>平方和误差也对大小框中的误差进行加权。我们的误差度量应该反映出大框中的小偏差比小框中的重要。为了部分解决这个问题，我们预测边界框宽度和高度的平方根，而不是直接预测宽度和高度。</p>
+<p>2.如果以高学习率开始，模型往往会因为不稳定的梯度而偏离。因此可以将学习率缓慢提高。</p>
+<p>3.针对过度拟合问题，使用丢弃和大量数据扩充。🙏还未深入研究</p>
+<p>损失函数：</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-03-07-16-53-37-image.png"></p>
+<h1 id="推论inference："><a href="#推论inference：" class="headerlink" title="推论inference："></a>推论inference：</h1><p>大的物体或者是靠经多个检测框边缘的物体能够被多个检测框定位到，为了消除这些重复检测，可以使用非最大抑制，可以增加23%的map。</p>
+<p>yolo的局限性：</p>
+<p>1.由于yolo检测将图片分成了若干个网格，每个网格只能预测两个框，并且只能有一个类。这种空间约束大大限制了模型预测附近物体的数量，比如大规模的鸟，成群的牛羊等等。</p>
+<p>2.由于我们的模型会从数据中预测边界框，数据中的一些新的或不寻常的纵横比或规格的图像就很难被采纳。我们的模型只会依靠一般的特征去分辨物体。</p>
+<p>3.损失函数对待小边界框和大边界框的错误是相同的，但是按道理说，同一个尺寸的错误，在大边界框是无所谓的，小边界框上却是致命的，因此应该追加权重处理。</p>
+<h1 id="与其他检测系统的比较-1"><a href="#与其他检测系统的比较-1" class="headerlink" title="与其他检测系统的比较"></a>与其他检测系统的比较</h1><p>目标检测通道一般是</p>
+<p>1.从输入图像中提取一组鲁棒特征<br>2.使用分类器或定位器以滑动窗口的方式在整个图像或图像中的一些区域子集上运行。</p>
+<p>DPM:</p>
+<p>R-CNN:</p>
+<p>。。。🙏这部分暂时略过，有缘再写。。。。。</p>
+<h1 id="实验"><a href="#实验" class="headerlink" title="实验"></a>实验</h1><p><img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-03-04-14-44-00-image.png" alt="" width="244">   <img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-03-04-14-44-51-image.png" title="" alt="" width="300"></p>
+<p>从上面两张图可以看出，fast R-cnn总体精度较高，但检测背景图错误率较高，而yolo在定位上犯的错误较多。可以将二者结合起来，在fast R-cnn上应用yolo消除部分背景误差，来达到提高精度的目的。🙏此部分在论文中有写，暂时略过。。。。</p>
+<p>通过艺术品数据集的训练效果来看，yolo&gt;DPM&gt;Faster R-cnn</p>
+<p>在连接摄像头时，yolo的表现也很好，可以实时检测图像，这更像是一种追踪系统，在物体移动和变化时检测物体，由此产生的系统增加了互动性和体验感。</p>
+]]></content>
+      <categories>
+        <category>论文整理</category>
+      </categories>
+      <tags>
+        <tag>yolo基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论文整理</title>
+    <url>/2023/03/12/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-2/</url>
+    <content><![CDATA[<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>然而表面缺陷检测的相关技术并未随着图像处理技术的发展而快速发展，其原因是在相关技术转化为生产力的过程中未能更多地结合实际生产的需要做出改进，也不能克服生产环境的变化给这些技术实现带来的障碍。</p>
+<p>带钢表面缺陷检测系统的发展不仅是结构构架、缺陷检测和分类能力的提高，更重要<br>是能使用合适的方法解决应用过程中出现的问题，问题的解决也能直接推动着系统的优化。</p>
+<h1 id="任务"><a href="#任务" class="headerlink" title="任务"></a>任务</h1><ul>
+<li><p><input disabled="" type="checkbox"> 
+了解国内外带钢表面缺陷检测技术的发展情况，并分析未来趋势</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+了解带钢表面缺陷检测中典型的图像检测分类方法以及这些方法适用的范围</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+了解带钢表面缺陷样貌，形成机理，位置分布</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+了解带钢表面缺陷检测系统的结构</p>
+</li>
+</ul>
+<h1 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h1><p>边界检测</p>
+]]></content>
+      <categories>
+        <category>论文整理</category>
+      </categories>
+      <tags>
+        <tag>带钢缺陷检测</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建yolov5框架</title>
+    <url>/2023/03/16/%E6%90%AD%E5%BB%BAyolov5%E6%A1%86%E6%9E%B6/</url>
+    <content><![CDATA[<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://www.bilibili.com/video/BV1GE411T7rQ/?p=3&spm_id_from=pageDriver&vd_source=92031302c770784aa5d8337c1dffa13a">常用conda命令_哔哩哔哩_bilibili</a></p>
+<p><a href="https://blog.csdn.net/ECHOSON/article/details/121939535">(135条消息) 手把手教你使用YOLOV5训练自己的目标检测模型-口罩检测-视频教程_yolov5模型训练_肆十二的博客-CSDN博客</a></p>
+<h1 id="基本步骤"><a href="#基本步骤" class="headerlink" title="基本步骤"></a>基本步骤</h1><p>1.在gitee下载yolov5源代码，创建一个专门的文件夹</p>
+<p>2.在该文件夹的地址下进行cmd </p>
+<p>3.用conda常用命令创建一个专门为yolov5的虚拟环境，然后在这个环境中安装各种依赖包</p>
+<p>4.在pycharm中打开yolov5文件夹，然后选择刚才配置好的虚拟环境</p>
+<p>5.运行detect.py 并观察结果</p>
+<h1 id="后续附加"><a href="#后续附加" class="headerlink" title="后续附加"></a>后续附加</h1><p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-03-22-17-55-59-6e1045938c678b103175169c8cc149e.png"></p>
+]]></content>
+      <categories>
+        <category>搭建环境</category>
+      </categories>
+      <tags>
+        <tag>yolo基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建深度学习环境</title>
+    <url>/2023/03/15/%E6%90%AD%E5%BB%BA%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83/</url>
+    <content><![CDATA[<h1 id="参考文件："><a href="#参考文件：" class="headerlink" title="参考文件："></a>参考文件：</h1><p><a href="https://www.bilibili.com/video/BV1cD4y1H7Tk/?spm_id_from=333.788.recommend_more_video.0&vd_source=92031302c770784aa5d8337c1dffa13a">Python深度学习：安装Anaconda、PyTorch（GPU版）与PyCharm_哔哩哔哩_bilibili</a></p>
+<h1 id="主要流程"><a href="#主要流程" class="headerlink" title="主要流程"></a>主要流程</h1><p>下载<u>anaconda</u>、<u>pytorch</u>、<u>pycharm</u></p>
+<p>1.anaconda安装最新版本即可</p>
+<p>   下载完添加环境变量</p>
+<p>   配置 Jupyter notebook</p>
+<p>2.pytorch要按照自己电脑的GPU配置，python解<a href="http://www.bilibili.com/video/BV1cD4y1H7Tk/?spm_id_from=333.788.recommend_more_video.0&vd_source=92031302c770784aa5d8337c1dffa13a">www.bilibili.com/video/BV1cD4y1H7Tk/?spm_id_from&#x3D;333.788.recommend_more_video.0&amp;vd_source&#x3D;92031302c770784aa5d8337c1dffa13a</a>)释器的配置选择合适的版本</p>
+<p><img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-03-15-21-08-04-cca7116f309501e10e0a6cc5a4af104.png" alt="" width="272">    <img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-03-15-21-08-36-260e56c82abfac9ca1f48cd2372d335.png" alt="" width="278"></p>
+<p>如图所示，我的电脑cuda版本为11.6   python解释器版本为3.9</p>
+<blockquote>
+<p>pip3 install torch torchvision torchaudio –extra-index-url <a href="https://download.pytorch.org/whl/cu116">https://download.pytorch.org/whl/cu116</a></p>
+</blockquote>
+<p>⚫ 第 1 个单词 pip3 代表我们是用 pip 下载的，而不是 conda；<br>⚫ 第 3 到 5 个单词表示我们下载了 <u>torch</u>、<u>torchvision</u>、<u>torchaudio</u> 三大组件；<br>⚫ 接着的 extra-index-url 后面的这个网站是指下载的地址。</p>
+<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-03-15-21-16-42-3c5c975106a104686bf43beb277bbe1.png" alt="" width="160" data-align="center">
+
+<p>进入cuda 11.6的网站后，依次下载torch、torchvision、torchaudio 三大组件</p>
+<p>掌握 Torch 的版本是 1.12.0 后，为了确保之后下载的 torchvision 与 torchaudio<br>可以适配这个 Torch，进入网址 <a href="https://pytorch.org/get-started/previous-versions/%EF%BC%8C">https://pytorch.org/get-started/previous-versions/，</a><br>搜索“pip install torch&#x3D;&#x3D;1.12.0”，</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-03-15-21-24-07-4f6cd7f985c0783f27dc3aea04bcf69.png"></p>
+<p>可见适配的vision版本为0.13.0  audio版本为0.12.0</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-03-15-21-25-02-b6585178841196dd45adf31661c2d0c.png"></p>
+<p>其中cu116表示cuda版本为11.6         cp39表示python解释器版本为3.19.3</p>
+<p>再在cmd中依次输入以下代码进行安装</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install torch-1.12.0+cu116-cp39-cp39-win_amd64.whl</span><br><span class="line">pip install torchaudio-0.12.0+cu116-cp39-cp39-win_amd64.whl</span><br><span class="line">pip install torchvision-0.13.0+cu116-cp39-cp39-win_amd64.whl</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>搭建环境</category>
+      </categories>
+      <tags>
+        <tag>yolo基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手写数字识别</title>
+    <url>/2023/03/29/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB/</url>
+    <content><![CDATA[<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://blog.csdn.net/ShakalakaPHD/article/details/110694933">基于卷积神经网络的手写数字识别（附数据集+完整代码+操作说明）_卷积神经网络进行手写数字识别_Hurri_cane的博客-CSDN博客</a></p>
+<h1 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h1>]]></content>
+      <categories>
+        <category>实验</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>论文整理</title>
+    <url>/2023/03/23/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-3/</url>
+    <content><![CDATA[<h1 id="论文引用"><a href="#论文引用" class="headerlink" title="论文引用"></a>论文引用</h1><p>[1]周博. 基于深度学习的铝型材表面缺陷检测技术研究[D].武汉纺织大学,2022.DOI:10.27698&#x2F;d.cnki.gwhxj.2022.000140.</p>
+<h1 id="论文结构"><a href="#论文结构" class="headerlink" title="论文结构"></a>论文结构</h1><ol>
+<li><p>阐述了铝型材表面缺陷检测任务背景</p>
+</li>
+<li><p>研究了铝型材表面缺陷检测装置。对装置的传送部分、图像采集部分、检测部分、分流、打标部分以及整体工作流程进行了介绍；其次，对装置中的主控模块、照明模块、图像采集模块、传动模块进行了详细的说明</p>
+</li>
+<li><p>改进了Faster-RCNN 网络的铝型材框架表面缺陷检测分类模型</p>
+</li>
+<li><p>总结与展望</p>
+</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>PLC</title>
+    <url>/2023/04/14/PLC/</url>
+    <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><p><a href="https://www.bilibili.com/video/BV1KP411G7eP/?spm_id_from=333.337.search-card.all.click&vd_source=92031302c770784aa5d8337c1dffa13a">电梯控制PLC编程_哔哩哔哩_bilibili</a></p>
+</li>
+<li><p><a href="https://www.cnblogs.com/shuimuqingyang/p/14108119.html">【实用】博途S7-1200 如何使用仿真功能 - 水木清扬 - 博客园 (cnblogs.com)</a></p>
+</li>
+</ol>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="下软件"><a href="#下软件" class="headerlink" title="下软件"></a>下软件</h2><ol>
+<li><p>装虚拟机</p>
+</li>
+<li><p>在虚拟机上装win10企业版系统</p>
+</li>
+<li><p>在虚拟机上装博图软件（包括PLC代码编程以及PLC仿真），和电梯仿真软件EET</p>
+</li>
+</ol>
+<img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-14-20-45-17-image.png" title="" alt="" data-align="center">
+
+<h2 id="通讯环境的搭建"><a href="#通讯环境的搭建" class="headerlink" title="通讯环境的搭建"></a>通讯环境的搭建</h2><p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-04-14-20-49-33-image.png"></p>
+<p>让以太网的IPv4地址与子网掩码和ethernet保持一致</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-04-14-20-50-23-image.png"></p>
+<p>    </p>
+]]></content>
+      <categories>
+        <category>PLC</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>论文整理</title>
+    <url>/2023/04/06/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-4/</url>
+    <content><![CDATA[<h1 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h1><h2 id="NatureDeepReview-doi-10-1038-x2F-nature14539"><a href="#NatureDeepReview-doi-10-1038-x2F-nature14539" class="headerlink" title="NatureDeepReview                                  doi:10.1038&#x2F;nature14539"></a>NatureDeepReview                                  doi:10.1038&#x2F;nature14539</h2><p>深度学习通过使用反向传播算法来发现大型数据集中的复杂结构，以指示机器应该如何改变其内部参数。深度卷积网络在图像、视频、语音和音频处理方面取得了突破，而循环网络则在文本和语音等顺序数据方面大出风头。</p>
+<p>机器学习最常见的形式，无论深度与否，都是监督学习。</p>
+<p>我们计算一个目标函数来测量输出分数和期望分数模式之间的误差。然后，机器修改其内部可调参数，以减少这种误差。这些可调参数，通常称为权重。</p>
+<p>在实践中，大多数从业者使用一种称为随机梯度下降(SGD)的程序。这包括显示几个例子的输入向量，计算输出和误差，计算这些例子的平均梯度，并相应地调整权重。对训练集中的许多小样本集重复这个过程，直到目标函数的平均值停止下降。它之所以被称为随机，是因为每个小样本集对所有样本的平均梯度给出了一个有噪声的估计。与复杂得多的优化技术相比，这个简单的程序通常能惊人地快速找到一组良好的权重。</p>
+<p><img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-06-20-16-39-5a49a75876192c9a1ea19b821a5521c.png" alt="" width="303">     <img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-06-20-17-24-3a42b78e655362bd8b6b86aeab1d0bb.png" alt="" width="314"></p>
+<p>c，用于计算具有两个隐藏层和一个输出层的神经网络中的前向传递的方程，每个输出层构成一个模块，通过该模块可以反向传播梯度。在每一层，我们首先计算每个单元的总输入z，这是下一层单元输出的加权和。然后对z应用非线性函数f(.)来得到单位的输出。为简单起见，我们省略了偏差项。</p>
+<p>神经网络中使用的非线性函数包括近年来常用的整流线性单元(ReLU) f(z) &#x3D; max(0,z)，以及更传统的sigmoids，如双曲正切，f(z) &#x3D;(exp(z)−exp(−z))&#x2F;(exp(z)+exp(−z))和logistic函数logistic, f(z) &#x3D;1&#x2F;(1 +exp(−z))。</p>
+<p>d，用于计算向后传递的方程。在每个隐藏层，我们计算关于每个单元输出的误差导数，这是关于上面一层中单元的总输入的误差导数的加权和。然后通过乘以f(z)的梯度，将输出的误差导数转换为输入的误差导数。</p>
+<p>在输出层，相对于单位输出的误差导数通过对成本函数求导来计算。如果单位l的成本函数为0.5(yl−tl) 2，则得到yl−tl，其中tl是目标值。一旦∂E&#x2F;∂zk是已知的，从下面一层的单位j开始的连接的权值wjk的误差导数就是yj∂E&#x2F;∂zk。</p>
+<p>使用通用的学习过程自动学习好的特性</p>
+<p>隐藏层可以被视为以非线性方式扭曲输入</p>
+<p>There are four key ideas behind ConvNets that take advantage of the properties of natural signals: local connections, shared weights, pooling and the use of many layers.</p>
+<p>深度神经网络利用了许多自然信号都是组合层次结构的特性，其中高级特征是通过组合低级特征来获得的。</p>
+<p>深度学习理论表明，与不使用分布式表示的经典学习算法相比，深度网络具有两种不同的指数优势。这两个优点都来自组合的强大功能，并依赖于底层数据生成分布具有适当的组件结构。首先，学习分布式表示能够泛化到学习到的特征值的新组合，而不是在训练中看到的那些(例如，n个二进制特征可以有2^n个组合)。其次，在一个深度网络中组成表示层带来了另一个指数优势(深度指数)的潜力。</p>
+<h1 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h1><h2 id="Reducing-the-Dimensionality-of-Data-with-Neural-Networks"><a href="#Reducing-the-Dimensionality-of-Data-with-Neural-Networks" class="headerlink" title="Reducing the Dimensionality of Data with Neural Networks"></a>Reducing the Dimensionality of Data with Neural Networks</h2><h2 id="28-JULY-2006-VOL-313-SCIENCE-www-sciencemag-org"><a href="#28-JULY-2006-VOL-313-SCIENCE-www-sciencemag-org" class="headerlink" title="28 JULY 2006 VOL 313 SCIENCE www.sciencemag.org"></a>28 JULY 2006 VOL 313 SCIENCE <a href="http://www.sciencemag.org/">www.sciencemag.org</a></h2><p>降维有利于高维数据的分类、可视化、通信和存储。一种简单而广泛使用的方法是主成分分析。本文提出了。。。。。</p>
+<p>在具有多个隐藏层(2-4层)的非线性自编码器中，权值的优化非常困难。只有初始权重接近一个好的解，梯度下降才能很好地工作，但找到这样的初始权重需要一种非常不同的算法，需要每次学习一层特征。我们介绍了这个用于二进制数据的预训练过程，并将其推广到实值数据，并表明它适用于各种数据集。</p>
+]]></content>
+      <categories>
+        <category>论文整理</category>
+      </categories>
+      <tags>
+        <tag>深度学习基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Bilibili&amp;yolo基础</title>
+    <url>/2023/04/26/Bilibili-yolo%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>yolov5代码分析</title>
+    <url>/2023/05/18/yolov5%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-05-19-10-03-58-image.png" alt="" data-align="inline">
+
+<p><code>class Detect(nn.Module):</code></p>
+<p><code>class Segment(Detect):</code></p>
+<p><code>class BaseModel(nn.Module):</code></p>
+<p><code>class DetectionModel(BaseModel):</code></p>
+<p><code>class SegmentationModel(DetectionModel):</code></p>
+<p><code>class ClassificationModel(BaseModel): </code></p>
+<img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-05-18-16-18-37-image.png" title="" alt="" data-align="left">
+
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-05-18-16-30-31-image.png"></p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-05-18-16-42-48-image.png"></p>
+]]></content>
+      <tags>
+        <tag>yolo基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于图像的三维重建——基于图像的立体视觉研究</title>
+    <url>/2023/06/10/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E7%AB%8B%E4%BD%93%E8%A7%86%E8%A7%89%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[<p>随着科技的发展，人们生活水平的进步，二维图像已经满足不了人类的需求了，三维立体图像应运而生。</p>
+<p>获取三维立体信息，可以根据不同的特性大致分为以下三类</p>
+<ol>
+<li><p>利用三维建模应用软件（GBM），但得先知道场景中事物的具体信息，比如物体的大小，形状，位置等。像3Dmax，AutoCAD等，都是利用一些基本的几何元素（长方体，球等），再经过一系列几何操作来构造出复杂的实物模型。操作复杂，且由于使用的是基本的几何体元素，所以精度和真实感都不高。</p>
+</li>
+<li><p>通过复杂的三维扫描系统来获取三维立体信息。这种方法是用激光或红外来测量物体与仪器间的距离，从而生成一个深度曲面。精度较高，但设备昂贵。</p>
+</li>
+<li><p>基于图像的三维重建方法（IBM），这种方法是先采集生活中的二维图像，再根据图像中的信息和已知的参数来重建物体模型。自动化程度高，计算机可以独立完成建模过程中的大部分数据处理工作。</p>
+</li>
+</ol>
+<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-06-10-21-18-53-1686403126776.png" alt="" data-align="center">
+]]></content>
+      <tags>
+        <tag>三维重建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论文整理</title>
+    <url>/2023/07/03/%E4%BA%A7%E5%93%81%E8%A1%A8%E9%9D%A2%E7%BC%BA%E9%99%B7%E8%A7%86%E8%A7%89%E6%A3%80%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[<p>曲率和法向等微分信息估算是点云数据处理的基础。</p>
+<p>三维视觉表面缺陷检测技术和逆向工程技术具有许多共性。</p>
+<p>基于点云数据缺陷检测流程图</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-07-03-16-27-45-`PD]GZ7_M0KX8DS}ZELKIGA.png"></p>
+<p>数据配准算法：ICP</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>基于结构光扫描的三维点云数据重构算法研究_徐吉轩</title>
+    <url>/2023/06/10/%E5%9F%BA%E4%BA%8E%E7%BB%93%E6%9E%84%E5%85%89%E6%89%AB%E6%8F%8F%E7%9A%84%E4%B8%89%E7%BB%B4%E7%82%B9%E4%BA%91%E6%95%B0%E6%8D%AE%E9%87%8D%E6%9E%84%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>三维重建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>方向研究</title>
+    <url>/2023/05/19/%E6%96%B9%E5%90%91%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[<p>开发了一种将双目结构光相机采集的高密度点云数据转化为深度图像的新方法，构建了训练深度学习模型的焊缝表面缺陷深度图像数据集和用于对比的彩色图像数据集</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>论文整理</title>
+    <url>/2023/07/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-10/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>时间序列</title>
+    <url>/2023/05/22/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/</url>
+    <content><![CDATA[<p>绝大部分行业场景，尤其是互联网、量化行业，每天都会产生大量的数据。金融领域股票价格随时间的走势；电商行业每日的销售额；旅游行业随着节假日周期变化的机票酒店价格等；</p>
+<p>我们称这种不同时间收到的，描述一个或多种特征随着时间发生变化的数据，为时间序列数据（Time Series Data）。</p>
+<p>而时间序列预测做的就是<strong>通过多种维度的数据本身内在与时间的关联特性</strong>，<strong>利用历史的数据预测未来</strong>这么一件事情。</p>
+<p>Transformer是Google 在 2017 年提出的一种 用于NLP任务的模型，可以用来做时间序列预测。它可以关注到序列的长期依赖信息，且支持并行化计算，但其本身没有序列的概念，需要增加position embedding是网络学习到序列位置信息</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>基于深度学习的图像多标签分类算法研究_张荣辉</title>
+    <url>/2023/05/01/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-6/</url>
+    <content><![CDATA[<p>本文以深度学习理论为基础，从图像深度特征提取和多标签分类器两个角度出发，研究深度学习在图像多标签分类方面的具体应用。</p>
+<ol>
+<li><p>利用卷积神经网络模型这种特征学习方法提取深层图像特征</p>
+</li>
+<li><p>对比分析多种多标签分类算法，最终选择了RAKEL算法训练分类器。</p>
+</li>
+<li><p>研究CNN和RAKEL的结合原理</p>
+</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>基于深度学习的图像多标签分类算法研究_高士慧</title>
+    <url>/2023/04/23/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-5/</url>
+    <content><![CDATA[<h1 id="目的："><a href="#目的：" class="headerlink" title="目的："></a>目的：</h1><p> 对这些类别、内容都不相同的图片进行合理有效的管理</p>
+<h1 id="研究背景和意义："><a href="#研究背景和意义：" class="headerlink" title="研究背景和意义："></a>研究背景和意义：</h1><p>对于普通用户来说，平均每个用户的智能手机中大概会存储一千多张照片，并且随着手机与相机拍照功能的增强和各种图片后期处理软件的流行，智能设备中的图片数量也在逐渐增加。如何高效管理这些海量的图片，并且便于用户的查询使用成为一个急需解决的课题。</p>
+<p>图像多标签分类，即为每张图像的不同目标分别赋予类别标签，然后以这些标签为依据对图像进行分类，将图片归属到不同的类别中。这样通过类别标签也可以从大量的图像中检索出需要查询的图像。</p>
+<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-23-15-55-20-image.png" alt="" data-align="center">
+
+<p>上图可以为图像赋予人、狗和长椅的标签，即可以通过这三个标签将图像分到三个不同的类别中。并且分别以这三个标签为依据也可以检索出这张图像。</p>
+<h1 id="国内外研究现状"><a href="#国内外研究现状" class="headerlink" title="国内外研究现状"></a>国内外研究现状</h1><p> 卷积神经网络由卷积层、激励层、池化层和全连接层构成。卷积层的作用主要是通过卷积操作来提取特征，进而获取特征图。池化层的主要作用是降采样。</p>
+<p>基于各种高效的网络模型，学者提出了很多适用于多标签分类的算法。将其分为两类，第一类是基于内容的多标签分类方法，第二类是基于检测的图像多标签分类方法。</p>
+<p>第一类：🙏。。。。。。。</p>
+<p>第二类：该方法首先训练一个目标检测模型，然后通过知识蒸馏模块将该模型参数移植到<br>多标签分类的网络中来完成分类任务。</p>
+<p>借鉴目标检测成熟的方案去设计算法和网络结构，并通过语义关系的对应对检测结果进行处理完成图像多标签分类的任务。</p>
+<p>图像多标签分类任务存在着较大的挑战</p>
+<ol>
+<li><p>当下此类算法网络结构复杂而庞大，分类准确率低。</p>
+</li>
+<li><p>在对多个目标进行识别时常常忽略了各个目标之间的关联性，只是对每个目标进行单个识别。不同目标的类别之间具有一定的关联性，基于这种关联性可以提高对目标识别的准确性。</p>
+</li>
+</ol>
+<h1 id="本文主要研究内容"><a href="#本文主要研究内容" class="headerlink" title="本文主要研究内容"></a>本文主要研究内容</h1><ul>
+<li><p>基于高效Refinedet算法的网络结构，提出了一个用于图像多标签分类的密集连接的细化网络（ＤｅｎｓｅｌｙＣｏｎｎｅｃｔｅｄＲｅｆｉｎｅｍｅｎｔＮｅｔｗｏｒｋ），简称为ＤＣＲＮ。</p>
+</li>
+<li><p>在ＤＣＲＮ的基础上引入了注意力机制，提出了用于多标签分类的ａｔｔｅｎｔｉｏn机制下的ＤＣＲＮ算法。</p>
+</li>
+<li><p>在对算法进行上述优化后，将检测结果进行语义关系的对应，将目标检测的结果转化为图像多标签分类所需要的类别结果。为图像赋予了便于分类和检索的多个标签。</p>
+</li>
+<li><p>在对算法进行研究和训练并得到了更高的准确率后，本文设计并实现了一个基于Ｃ／Ｓ架构的图像多标签分类系统平台，以作者拍摄所得的生活照作为系统的输入，经过上述算法对图像进行测试。</p>
+</li>
+</ul>
+<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-23-19-25-34-image.png" alt="" data-align="center">
+
+<h1 id="基于检测-amp-深度学习的图像多标签分类算法"><a href="#基于检测-amp-深度学习的图像多标签分类算法" class="headerlink" title="基于检测&amp;深度学习的图像多标签分类算法"></a>基于检测&amp;深度学习的图像多标签分类算法</h1><h2 id="深度学习的基础"><a href="#深度学习的基础" class="headerlink" title="深度学习的基础"></a>深度学习的基础</h2><p>深度学习的核心思想是<u>神经网络</u>，神经网络的运算主要分为三步：正向传播、反向传播、梯度下降。正向传播的主要目的是计算预测值，主要过程是从输入层输入数据之后，经过一层一层的计算到输出层，得到预测值。反向传播主要是来度量预测值的准确性，用正向传播得到的预测值与采集回来的标签之做比较，两者之间的差距称为损失函数。梯度下降即损失函数最小化的过程，主要目的是对网络结构进行优化。神经网络包含很多种形式，其中深度学习中应用最广泛的是卷积神经网络CNN</p>
+<p><u>卷积神经网络</u>是含有卷积层的神经网络，它由卷积层、激励层、池化层和全连接层构成。</p>
+<p>ＣＮＮ—般使用的是ReLU激活函数，它的特点是收敛快，求梯度简单。</p>
+<img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-04-26-10-28-51-image.png" title="" alt="" data-align="center">
+
+<p>由于卷积层是线性运算，而线性模型的表达能力不够，所以引入激活函数，即非线性运算，这样可以大大增强模型的表达能力和泛化能力</p>
+<h2 id="目标检测算法"><a href="#目标检测算法" class="headerlink" title="目标检测算法"></a>目标检测算法</h2><h2 id="目标检测发展历程"><a href="#目标检测发展历程" class="headerlink" title="目标检测发展历程"></a>目标检测发展历程</h2><p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-04-26-11-13-44-image.png"></p>
+<p>本文重点关注Refinedet和DSOD，在此基础上进行改进</p>
+<h2 id="图像分类算法特征网络模型"><a href="#图像分类算法特征网络模型" class="headerlink" title="图像分类算法特征网络模型"></a>图像分类算法特征网络模型</h2><p>本文将对工作所用到的ＶＧＧＮｅｔ、ＤｅｎｓｅｔＮｅｔ和ＲｅｓＮｅｔ的网络结构进行详细介绍。</p>
+<p>🙏。。。。。。。。。。。。。。</p>
+<h1 id="网络模型的搭建和训练"><a href="#网络模型的搭建和训练" class="headerlink" title="网络模型的搭建和训练"></a>网络模型的搭建和训练</h1><p>卷积神经网络一般包括训练和测试两大阶段。训练是把训练数据和神经网络模型用ＧＰＵ提炼出模型参数。测试是把测试数据用训练好的模型运行后查看结果。</p>
+<p>本节将对深度学习框架的选择和网络模型的训练优化两个方面进行详细论述。</p>
+<p>为了更加方便的对卷积神经网络进行训练，各种开源深度学习框架也层出不穷，<br>常见的有Ｃａｆｆｅ，ＣＮＴＫ，ＤｅｅｐＬｅａｍｉｎｇ４ｊ，ＰｙＴｏｒｃｈＫｅｒａｓ，Ｔｈｅａｎｏ、Ｍｘｎｅｔ和ＴｅｎｓｏｒＦｌｏｗ网等。<br>本文作者选择Ｍｘｎｅｔ作为训练神经网络的深度学习框架。</p>
+<p>本算法使用的主千网络是ＲｅｓＮｅｔ１０１，首先将数据集的相关文件准备好并放到指定的位置，然后按照要求对程序中的参数如ｅｐｏｃｈ、ｂａｔｃｈｓｉｚｅ、ｌｅａｒｎｉｎｇｒａｔｅ等进行调整。将图像输入后，网络采用梯度下降的方法不断更新参数，直到损失函数收敛为止</p>
+]]></content>
+      <categories>
+        <category>论文整理</category>
+      </categories>
+      <tags>
+        <tag>多标签算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Periodic Surface Defect Detection in Steel Plates Based on Deep Learning</title>
+    <url>/2023/05/14/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-8/</url>
+    <content><![CDATA[<p>辊印的缺陷对比度较低，很难检测。针对滚动痕迹等周期性缺陷具有较强的时间序列特征，提出了一种基于卷积神经网络(CNN)和长短期记忆(LSTM)的周期性缺陷检测方法。首先通过CNN网络提取缺陷图像的特征，然后将提取的特征向量输入到LSTM网络中进行缺陷识别。</p>
+<p>周期性缺陷的形态特征并不是固定的，因此传统的CNN检测率不高。</p>
+<p>滚印是一组具有周期性的不均匀缺陷。它们通常是由于轧辊疲劳、硬度不足或轧辊在轧制过程中表面有异物引起的。</p>
+<p>同一批次滚印的形态特征稳定且相似;由于钢板的反复轧制，不同批次轧辊痕迹的形态特征会有所不同。滚印存在于印版的上下表面，主要在印版的操作侧和中间位置。它们是肉眼可以观察到的亮点，以及相机捕捉到的图像中的黑点</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-05-14-19-41-33-1684064486804.png"></p>
+<p>由于不同批次的辊印的形态特征有很大差异，所以传统的cnn通过提取形态学特征对缺陷进行分类的方法就难奏效，但由于滚痕缺陷具有较强的周期性，其时间序列特性适合LSTM处理</p>
+<p>通过某些方法生成足够多的样本</p>
+<p>CNN主要由三个部分组成:数据层、特征学习网络和分类网络。</p>
+<p>基于LSTM的周期性缺陷识别原理图7a显示了CNN + LSTM的总体流程。通过CNN从样本中提取特征，得到其对应的特征向量x，然后将<u>特征向量按时间序列</u>输入到LSTM中，输出O为识别结果。</p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-05-14-20-11-57-1684066310922.png"></p>
+<p><img src="C:\Users\HP\AppData\Roaming\marktext\images\2023-05-14-20-20-32-1684066825319.png"></p>
+<p>图7a显示了CNN + LSTM的整体流程。通过CNN从样本中提取特征，得到其对应的特征向量x，然后将特征向量按时间序列输入到LSTM中，输出O为识别结果。</p>
+<p>图7b显示了图7a中时刻t的LSTM[16]算法的具体流程。图7b中，Ct−1为前一时刻的信息，包括前一时刻输入网络的所有信息。结合当前时刻输入的信息Xt，先过滤前一时刻的信息，再过滤当前时刻输入的信息。通过过滤，没有缺陷时的信息，如图7a中的X2、Xt，被遗忘，而有缺陷时的信息，如图7a中的X0、Xt−1，被记住。因此，LSTM可以更好地记住缺陷特征，并防止长时间忘记缺陷特征。</p>
+<p>将缺陷图像与背景图像周期性排列拼接成一幅长矩形图像，得到周期性缺陷样本。将该样本输入到设计好的CNN中，提取卷积层的输出作为样本的特征向量。然后，将特征向量切成LSTM的输入向量。</p>
+<p>本研究使用Tensorflow框架实现LSTM。</p>
+]]></content>
+      <categories>
+        <category>论文整理</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>基于线结构光的物体表面缺陷检测方法与实验研究_杨续昌</title>
+    <url>/2023/06/17/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-9/</url>
+    <content><![CDATA[<img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-06-17-11-20-56-1686972050686.png" title="" alt="" data-align="center">
+
+<p>提取光条纹中心线的方法：光强分布拟合法、灰度重心法、方向模板法、Ｈｅｓｓｉａｎ矩阵法。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>论文整理</title>
+    <url>/2023/05/05/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-7/</url>
+    <content><![CDATA[<p>yolov4</p>
+<p>现代检测器通常由两部分组成，在ImageNet上进行预训练的主干和用于预测对象类别和边界框的头部。</p>
+<p>近年来发展起来的目标检测器通常在主干和头之间插入一些层，这些层通常用于收集不同阶段的特征图。我们可以称之为物体探测器的颈部。</p>
+<img title="" src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2023-05-05-10-45-44-image.png" alt="" data-align="center">
+
+<ul>
+<li>Backbone：CSPDarknet53</li>
+<li>Neck：SPP,PAN</li>
+<li>Head：YOLOv3</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20200512144007178.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDc5MTk2NA==,size_16,color_FFFFFF,t_70#pic_center"></p>
+]]></content>
+      <categories>
+        <category>论文整理</category>
+      </categories>
+  </entry>
+</search>
